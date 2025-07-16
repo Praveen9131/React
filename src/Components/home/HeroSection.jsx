@@ -1,9 +1,11 @@
 import React from "react";
 import About from "./About.jsx";
 import Generative from "./Generative.jsx";
-import Events from "./Events.jsx";
+import Collaboration from "./Collaboration.jsx";
 import Service from "./Service.jsx";
 import Companies from "./Companies.jsx";
+import Performance from "./performance.jsx";
+import Events from "./Events.jsx";
 
 function HeroSection() {
   return (
@@ -19,7 +21,7 @@ function HeroSection() {
                 GenAI 2025 Launch Pad
               </a>
               <h1 className="__className_9b9fd1 text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-[5rem] font-semibold tracking-tight text-white -ml-1">
-                learn anything, anytime, <br lass="hidden md:block" />{" "}
+                Learn anything, anytime, <br lass="hidden md:block" />{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
                   anywhere.
                 </span>
@@ -28,8 +30,8 @@ function HeroSection() {
             <div className="space-y-3 sm:space-y-4">
               <p className="max-w-xl text-base sm:text-lg md:text-xl text-sky-100/90 leading-relaxed">
                 Join <span className="font-bold text-white">20,000+</span>{" "}
-                professionals mastering practical AI development at Build Fast
-                with AI
+                professionals mastering practical AI development at{" "}
+                <b> Ace AI </b>
               </p>
               <p className="text-base sm:text-lg md:text-xl font-semibold text-white/90">
                 Learn. Build. Deploy.
@@ -64,11 +66,16 @@ function HeroSection() {
           </div>
         </div>
       </section>
-      <About />
-      <Service />
-      <Generative />
-      <Events />
-      <Companies />
+      {/* Landing page Section */}
+      <section>
+        <About />
+        <Service />
+        <Generative />
+        <Collaboration />
+        <Companies />
+        <Performance />
+        <Events />
+      </section>
     </>
   );
 }

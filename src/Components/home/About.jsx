@@ -1,6 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 
 function About() {
+  const ReadMore = ({ children, maxLength = 150 }) => {
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    if (!children) return null;
+
+    if (children.length <= maxLength) {
+      return <p className="text-slate-400">{children}</p>;
+    }
+
+    const truncatedText = children.substring(0, maxLength) + "...";
+
+    return (
+      <p className="text-slate-400">
+        {isExpanded ? children : truncatedText}
+        <button
+          onClick={() => setIsExpanded(!isExpanded)}
+          className="text-sky-500 hover:text-sky-400 ml-1 focus:outline-none font-medium"
+        >
+          {isExpanded ? " Read Less" : " Read More"}
+        </button>
+      </p>
+    );
+  };
+
+  const aboutContent = `is a leading innovator in artificial intelligence solutions, dedicated to helping businesses harness the power of AI to drive growth and efficiency. Founded in 2020 by a team of AI experts and industry veterans, we specialize in developing cutting-edge AI applications, providing comprehensive corporate training programs, and offering strategic AI consulting services to organizations across various sectors. Our mission is to democratize AI technology, making it accessible and actionable for businesses of all sizes. With a focus on practical, real-world applications, we bridge the gap between theoretical AI research and business implementation. Our team combines deep technical expertise with industry knowledge to deliver customized solutions that address specific business challenges. Whether you're looking to automate processes, gain insights from data, or create intelligent products, AceAI Technologies provides the tools, knowledge, and support you need to succeed in today's AI-driven landscape.`;
+
   return (
     <>
       <section className="bg-[#02041A] relative w-full px-4 py-8 sm:py-16 md:py-20 lg:py-24">
@@ -11,31 +37,26 @@ function About() {
                 <div
                   className="inline-block"
                   style={{ transform: "rotate(0.28185deg)" }}
-                >
-                  <span className="text-sky-400 font-medium text-base md:text-lg bg-sky-400/10 px-2 md:px-3 py-0.5 md:py-1 rounded-full">
-                    Who We Are
-                  </span>
-                </div>
+                ></div>
                 <h1
                   className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-4 mb-3 md:mb-6"
                   style={{ opacity: "1", transform: "none" }}
                 >
-                  Accelerate Your{" "}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
-                    AI Journey
+                    About Us
                   </span>{" "}
-                  <br className="sm:hidden" /> with Us
                 </h1>
                 <p
-                  className="text-sm sm:text-base md:text-lg text-slate-400 max-w-2xl"
+                  className="text-sm sm:text-base md:text-lg text-slate-200 max-w-2xl"
                   style={{ opacity: "1", transform: "none" }}
                 >
-                  Build Fast with AI helps professionals and businesses rapidly
-                  implement Gen AI through practical, hands-on education and
-                  consulting. Founded by IIT Delhi alumni, we've trained 20,000+
-                  professionals from Google, Amazon, BCG, McKinsey and more.
+                  <b>AceAI Technologies</b>
                 </p>
+                <div className="text-sm sm:text-base md:text-lg">
+                  <ReadMore maxLength={200}>{aboutContent}</ReadMore>
+                </div>
               </div>
+
               <div className="space-y-4 md:space-y-6 md:max-w-[500px] lg:max-w-[600px]">
                 <div style={{ opacity: "1", transform: "none" }}>
                   <div className="bg-[#0f1629] backdrop-blur-sm rounded-xl md:rounded-2xl p-4 md:p-6 cursor-pointer transition-all duration-300 hover:shadow-lg hover:shadow-sky-500/10">
