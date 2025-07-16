@@ -1,11 +1,6 @@
 import React from "react";
 import About from "./About.jsx";
-import Generative from "./Generative.jsx";
-import Collaboration from "./Collaboration.jsx";
 import Service from "./Service.jsx";
-import Companies from "./Companies.jsx";
-import Performance from "./performance.jsx";
-import Events from "./Events.jsx";
 
 function HeroSection() {
   return (
@@ -14,12 +9,6 @@ function HeroSection() {
         <div className="mx-auto container px-4 sm:px-6 ">
           <div className="z-30 w-full max-w-4xl space-y-4 sm:space-y-6 md:space-y-8">
             <div className="space-y-3 sm:space-y-4">
-              <a
-                className="text-sky-400 font-medium text-sm sm:text-base md:text-lg bg-sky-400/10 px-3 py-1 sm:px-4 sm:py-2 rounded-full -ml-1 inline-block"
-                href="/genai-course"
-              >
-                GenAI 2025 Launch Pad
-              </a>
               <h1 className="__className_9b9fd1 text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-[5rem] font-semibold tracking-tight text-white -ml-1">
                 Learn anything, anytime, <br lass="hidden md:block" />{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
@@ -70,11 +59,6 @@ function HeroSection() {
       <section>
         <About />
         <Service />
-        <Generative />
-        <Collaboration />
-        <Companies />
-        <Performance />
-        <Events />
       </section>
     </>
   );

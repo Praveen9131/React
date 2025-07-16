@@ -128,14 +128,20 @@ function CampusConnect() {
           </div>
         </div>
       </section>
-      <div className="flex items-center justify-center bg-[#02041A]">
+      <div className="flex items-start justify-center bg-[#02041A] py-10">
         <a
           href=""
-          className="inline-block bg-white text-black px-6 py-3 rounded hover:bg-white/60 transition"
+          className="inline-block bg-white text-black px-9 py-3 rounded-lg hover:bg-white/60 transition"
         >
           Contact us
         </a>
       </div>
+      <footer className="bg-gray-900 text-white py-6 px-4 text-center">
+        <p>
+          &copy; {new Date().getFullYear()} AceAI Technologies. All rights
+          reserved.
+        </p>
+      </footer>
     </>
   );
 }

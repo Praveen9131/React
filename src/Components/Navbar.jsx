@@ -64,9 +64,7 @@ function Navbar() {
                 {" "}
                 <Link
                   to="/"
-                  className={({ isActive }) =>
-                    isActive ? "nav-item active" : "nav-item"
-                  }
+                  className="px-4 py-2 hover:text-white hover:bg-[#1a2030] rounded-full cursor-pointer"
                 >
                   Home
                 </Link>
