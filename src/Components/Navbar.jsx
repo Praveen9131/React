@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logoImg from "../assets/Ace-Ai-logo.jpg"; // adjust path
 import Signin from "./Signin.jsx";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,6 @@ function Navbar() {
     <>
       <header className="w-full bg-[#02041A]">
         <div className="max-w-[88rem] mx-auto px-4 py-4 flex items-center justify-between">
-          {/* Logo */}
           <a href="/" className="flex items-center space-x-2">
             <img src={logoImg} alt="Logo" className="h-12 w-12" />
             <div className="text-white text-sm">
@@ -19,7 +19,6 @@ function Navbar() {
             </div>
           </a>
 
-          {/* Hamburger Icon */}
           <button
             className="lg:hidden text-white"
             onClick={() => setIsOpen(!isOpen)}
@@ -55,21 +54,38 @@ function Navbar() {
             )}
           </button>
 
-          {/* Navigation Links */}
           <nav
             className={`absolute lg:static top-20 left-0 w-full lg:w-auto bg-[#02041A] lg:bg-transparent transition-all duration-300 ${
               isOpen ? "block" : "hidden"
             } lg:flex`}
           >
             <ul className="flex flex-col lg:flex-row items-center lg:space-x-6 text-[#c5bcbc] font-medium">
-              <li className="px-4 py-2 hover:text-white hover:bg-[#1a2030] rounded-full cursor-pointer">
-                Home
+              <li>
+                {" "}
+                <Link
+                  to="/"
+                  className={({ isActive }) =>
+                    isActive ? "nav-item active" : "nav-item"
+                  }
+                >
+                  Home
+                </Link>
               </li>
-              <li className="px-4 py-2 hover:text-white hover:bg-[#1a2030] rounded-full cursor-pointer">
-                Interns
+              <li>
+                <Link
+                  to="/interns"
+                  className="px-4 py-2 hover:text-white hover:bg-[#1a2030] rounded-full cursor-pointer"
+                >
+                  Interns
+                </Link>
               </li>
-              <li className="px-4 py-2 hover:text-white hover:bg-[#1a2030] rounded-full cursor-pointer">
-                Courses
+              <li>
+                <Link
+                  to="/campus-connect"
+                  className="px-4 py-2 hover:text-white hover:bg-[#1a2030] rounded-full cursor-pointer"
+                >
+                  Campus Connect
+                </Link>
               </li>
             </ul>
           </nav>

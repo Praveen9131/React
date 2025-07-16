@@ -17,7 +17,7 @@ function Service() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group bg-[#0f1629]/60 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300  hover:shadow-sky-500/10 hover:-translate-y-1">
               <div className="text-center mb-6">
-                <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-3xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <div className="w-20 h-20  rounded-3xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -362,7 +362,7 @@ function Service() {
             </div>
             <div className="group bg-[#0f1629]/60  hover:shadow-sky-500/10 backdrop-blur-sm rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <div className="text-center mb-6">
-                <div className="w-20 h-20 bg-gradient-to-r from-orange-500 to-red-600 rounded-3xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <div className="w-20 h-20  rounded-3xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
