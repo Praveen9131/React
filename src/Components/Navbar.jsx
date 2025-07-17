@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logoImg from "../assets/Ace-Ai-logo.jpg"; // adjust path
+import logoImg from "../assets/Ace-Ai-logo.jpg";
 import Signin from "./Signin.jsx";
 import { Link } from "react-router-dom";
 
@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <>
-      <header className="w-full bg-[#02041A]">
+      <header className="w-full bg-[#02041A] sticky top-0  z-50">
         <div className="max-w-[88rem] mx-auto px-4 py-4 flex items-center justify-between">
           <a href="/" className="flex items-center space-x-2">
             <img src={logoImg} alt="Logo" className="h-12 w-12" />

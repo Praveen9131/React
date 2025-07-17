@@ -2,82 +2,199 @@ import React, { useState } from "react";
 
 function About() {
   return (
-    <div className="min-h-scree flex flex-col bg-black font-sans">
-      <header className="py-8 px-4 md:px-8 text-center">
-        <h1 className="text-3xl text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600 md:text-5xl font-bold mb-4">
-          About Us
-        </h1>
-        <h2 className="text-2xl text-white md:text-3xl font-semibold mb-4">
-          AceAI Technologies
-        </h2>
-        <p className="text-lg text-white md:text-xl max-w-3xl mx-auto leading-relaxed">
-          Limitless intelligence that transcends the boundaries of time and
-          place.
-        </p>
-      </header>
-
-      <div className="text-white  lg:gap-12 items-start md:items-center">
-        <section className="px-46 py-6">
-          <p className="mb-4 text-lg md:text-centre leading-relaxed">
-            At AceAI Technologies, we envision a world where artificial
-            intelligence is not just a tool—but an intelligent companion
-            accessible to all, powering every task, in every domain, at any time
-            and from any place. Our mission is to make this vision a reality.
+    <section className="bg-[#0a0f1e] py-20 px-6 md:px-12 lg:px-24">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
+        <div className="w-full lg:w-1/2">
+          <h2 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600 mb-4 leading-tight">
+            Who We Are
+          </h2>
+          <h3 className="text-3xl font-semibold text-blue-300 mb-2">
+            AceAI Technologies
+          </h3>
+          <p className="text-white/70 mb-6 text-md">
+            At AceAI Technologies, we envision AI as a limitless
+            companion—accessible anytime, anywhere, and for everyone. Our
+            mission is to make intelligent systems integral to every task and
+            domain. As a leading AI solutions provider, we deliver advanced,
+            scalable, and sector-specific technologies. From healthcare to
+            finance and logistics, we empower industries to innovate with
+            precision and agility.
           </p>
-        </section>
 
-        <main className="grid md:grid-cols-2 px-4 gap-8 md:gap-20 md:px-10 py-8 space-y-8 max-w-5xl mx-auto">
-          <section>
-            <h3 className="text-xl md:text-2xl font-semibold mb-4">
-              Our Vision
-            </h3>
-            <p className="mb-4 text-md md:text-lg leading-relaxed">
-              As a premier AI solutioning company, we deliver advanced,
-              scalable, and sector-specific AI technologies that redefine how
-              businesses operate and innovate. Our work spans across
-              industries—healthcare, finance, education, logistics,
-              manufacturing, retail, public services—and addresses critical
-              functions with precision, agility, and foresight.
-            </p>
-          </section>
+          <h4 className="text-2xl font-semibold text-blue-300 mb-3">
+            Our Expertise
+          </h4>
+          <ul className="list-disc list-inside text-white/70 space-y-2 text-md mb-8">
+            <li>End-to-end AI strategy and consulting</li>
+            <li>Custom AI model development</li>
+            <li>Functional and industry-specific automation</li>
+            <li>Seamless integration and lifecycle support</li>
+          </ul>
 
-          <section>
-            <h3 className="text-xl md:text-2xl font-semibold mb-4">
-              Our Philosophy
-            </h3>
-            <p className="mb-4 text-md md:text-lg leading-relaxed">
-              At the heart of our philosophy is limitless intelligence that
-              transcends the boundaries of time and place. We are committed to
-              delivering AI solutions that are inclusive, adaptable, and
-              transformative. Built on a foundation of ethics, transparency, and
-              innovation, our AI is designed to empower people and
-              organizations—wherever they are, whenever they need it.
-            </p>
-          </section>
+          {/* Button -- 1 */}
+          <div className="bg-[#0f1629] backdrop-blur-sm rounded-xl mb-3 md:rounded-2xl p-4 md:p-5 cursor-pointer transition-all duration-300 hover:shadow-lg hover:shadow-sky-500/10">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3 md:space-x-4">
+                <div className="p-2 md:p-3 bg-sky-500/30 rounded-full">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-6 h-6 text-sky-500"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M7 8l-4 4 4 4M17 8l4 4-4 4M12 4v16"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-md sm:text-lg md:text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
+                    Software Development
+                  </h3>
+                  <p className="text-xs sm:text-sm md:text-base text-slate-400">
+                    Custom, scalable, intelligent software solutions.
+                  </p>
+                </div>
+              </div>
+              <div style={{ transform: "none" }}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  className="lucide lucide-chevron-right w-4 h-4 md:w-6 md:h-6 text-sky-500"
+                  aria-hidden="true"
+                >
+                  <path d="m9 18 6-6-6-6"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
 
-          <section>
-            <h3 className="text-xl md:text-2xl font-semibold mb-4">
-              Our Expertise
-            </h3>
-            <ul className="list-disc list-inside space-y-2 text-md md:text-lg leading-relaxed">
-              <li>End-to-end AI strategy and consulting</li>
-              <li>Custom AI model development</li>
-              <li>Functional and industry-specific automation</li>
-              <li>Seamless integration and lifecycle support</li>
-            </ul>
-          </section>
+          {/* Button -- 2 */}
 
-          <section>
-            <h3 className="text-xl md:text-2xl font-semibold mb-4">Join Us</h3>
-            <p className="text-md md:text-lg leading-relaxed max-w-3xl mx-auto">
-              Join AceAI Technologies as we shape a smarter, more connected
-              world—where intelligence is not a privilege, but a platform for
-              progress.
-            </p>
-          </section>
-        </main>
+          <div className="bg-[#0f1629] backdrop-blur-sm rounded-xl mb-3 md:rounded-2xl p-4 md:p-6 cursor-pointer transition-all duration-300 hover:shadow-lg hover:shadow-sky-500/10">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3 md:space-x-4">
+                <div className="p-2 md:p-3 bg-sky-500/30 rounded-full">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    className="lucide lucide-zap w-4 h-4 md:w-6 md:h-6 text-sky-500"
+                    aria-hidden="true"
+                  >
+                    <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-md sm:text-lg md:text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
+                    AI Consulting
+                  </h3>
+                  <p className="text-xs sm:text-sm md:text-base text-slate-400">
+                    Transform Your Business with AI
+                  </p>
+                </div>
+              </div>
+              <div style={{ transform: "none" }}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  className="lucide lucide-chevron-right w-4 h-4 md:w-6 md:h-6 text-sky-500"
+                  aria-hidden="true"
+                >
+                  <path d="m9 18 6-6-6-6"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          {/* Button -- 3 */}
+
+          <div className="bg-[#0f1629] backdrop-blur-sm rounded-xl mb-3 md:rounded-2xl p-4 md:p-6 cursor-pointer transition-all duration-300 hover:shadow-lg hover:shadow-sky-500/10">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-3 md:space-x-4">
+                <div className="p-2 md:p-3 bg-sky-500/30 rounded-full">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    className="lucide lucide-users w-4 h-4 md:w-6 md:h-6 text-sky-500"
+                    aria-hidden="true"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                    <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-md sm:text-lg md:text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
+                    Campus Connect
+                  </h3>
+                  <p className="text-xs sm:text-sm md:text-base text-slate-400">
+                    Connect to the Campus to more
+                  </p>
+                </div>
+              </div>
+              <div style={{ transform: "none" }}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  className="lucide lucide-chevron-right w-4 h-4 md:w-6 md:h-6 text-sky-500"
+                  aria-hidden="true"
+                >
+                  <path d="m9 18 6-6-6-6"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div classNameName="w-full lg:w-1/2 flex justify-center">
+          <img
+            src="/about-us-illustration.svg"
+            alt="About AceAI"
+            classNameName="w-full max-w-md object-contain drop-shadow-xl"
+          />
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 
