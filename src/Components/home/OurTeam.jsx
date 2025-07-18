@@ -45,7 +45,7 @@ function OurTeam() {
           >
             <img
               src="/OurTeam img/directorAce-AI.png"
-              alt="Image Of Swaraj Bachu"
+              alt=""
               class="h-80 w-full rounded-lg object-fill"
               style={{ opacity: "1" }}
             />
