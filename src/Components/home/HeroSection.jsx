@@ -3,7 +3,7 @@ import About from "./About.jsx";
 import Service from "./Service.jsx";
 import OurTeam from "./OurTeam.jsx";
 import Footer from "./Footer.jsx";
-import video from "../../assets/serviceImages/videoaceAI.mp4";
+import video from "../../../public/serviceImages/videoaceAI.mp4";
 
 function HeroSection() {
   return (

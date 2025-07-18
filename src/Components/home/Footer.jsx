@@ -1,5 +1,5 @@
 import React from "react";
-import footerlogo from "../../assets/serviceImages/Ace-Ai-logo.jpg";
+import footerlogo from "../../../public/serviceImages/Ace-Ai-logo.jpg";
 
 function Footer() {
   return (
