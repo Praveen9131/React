@@ -188,7 +188,7 @@ function About() {
 
         <div classNameName="w-full lg:w-1/2 flex justify-center">
           <img
-            src="/about-us-illustration.svg"
+            src=""
             alt="About AceAI"
             classNameName="w-full max-w-md object-contain drop-shadow-xl"
           />

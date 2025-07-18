@@ -16,7 +16,7 @@ function OurTeam() {
           <div className="relative w-40 h-40 mx-auto mb-6 overflow-hidden  p-1 group-hover:scale-105 transition-transform duration-300">
             <div className="w-full h-full rounded overflow-hidden bg-card">
               <img
-                src="/public/OurTeam img/directorAce-AI.jpg"
+                src="/src/assets/OurTeam img/directorAce-AI.jpg"
                 alt=""
                 className="w-full h-full object-cover"
               />
@@ -62,7 +62,7 @@ function OurTeam() {
           <div className="relative w-40 h-40 mx-auto mb-6 overflow-hidden   p-1 group-hover:scale-105 transition-transform duration-300">
             <div className="w-full h-full rounded overflow-hidden bg-card">
               <img
-                src="/public/OurTeam img/praveen.jpg"
+                src="/src/assets/OurTeam img/praveen.jpg"
                 alt=""
                 className="w-full h-full object-cover"
               />

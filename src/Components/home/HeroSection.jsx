@@ -3,7 +3,7 @@ import About from "./About.jsx";
 import Service from "./Service.jsx";
 import OurTeam from "./OurTeam.jsx";
 import Footer from "./Footer.jsx";
-import video from "../../../public/serviceImages/videoaceAI.mp4";
+import video from "../../assets/serviceImages/videoaceAI.mp4";
 
 function HeroSection() {
   return (
@@ -14,7 +14,7 @@ function HeroSection() {
           muted
           loop
           playsInline
-          className="absolute top-0 left-0 w-full h-full object-cover z-0"
+          className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-40"
         >
           <source src={video} type="video/mp4" />
         </video>

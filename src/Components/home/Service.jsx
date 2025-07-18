@@ -6,49 +6,49 @@ const services = [
     title: "AI for Semiconductor Design",
     description:
       "Accelerating chip design with machine learning, fault localization, and EDA optimization techniques.",
-    image: "/public/serviceImages/semiconductor.png",
+    image: "/src/assets/serviceImages/semiconductors.jog.jpg",
   },
   {
     title: "AI in Education",
     description:
       "Enhancing personalized learning, automated assessment, and intelligent tutoring systems with AI.",
-    image: "/public/serviceImages/education.png",
+    image: "/src/assets/serviceImages/education.jpg",
   },
   {
     title: "AI in Healthcare",
     description:
       "Empowering diagnostics, treatment planning, and patient monitoring through AI-driven insights.",
-    image: "/public/serviceImages/healthcare.png",
+    image: "/src/assets/serviceImages/healthcare.jpg",
   },
   {
     title: "AI in Banking",
     description:
       "Enabling fraud detection, customer insights, and automated financial operations with smart AI tools.",
-    image: "/public/serviceImages/banking.png",
+    image: "/src/assets/serviceImages/banking.jpg",
   },
   {
     title: "AI in Law & Enforcement",
     description:
       "Assisting in legal analytics, evidence review, and predictive policing with secure AI solutions.",
-    image: "/public/serviceImages/law.png",
+    image: "/src/assets/serviceImages/law.jpg",
   },
   {
     title: "AI in Human Resources",
     description:
       "Optimizing recruitment, employee engagement, and talent analytics with intelligent automation.",
-    image: "/public/serviceImages/human.png",
+    image: "/src/assets/serviceImages/hr.jpg",
   },
   {
     title: "AI in Agriculture",
     description:
       "Boosting crop yield, disease detection, and resource efficiency using precision agriculture AI.",
-    image: "/public/serviceImages/agriculture.png",
+    image: "/src/assets/serviceImages/agriculture.png",
   },
   {
     title: "AI in Finance",
     description:
       "Powering algorithmic trading, credit risk scoring, and real-time financial forecasting.",
-    image: "/public/serviceImages/finance.png",
+    image: "/src/assets/serviceImages/finance.png",
   },
 ];
 const Service = () => {
@@ -58,7 +58,7 @@ const Service = () => {
         <h2 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600  mb-6 text-center">
           Our Services
         </h2>
-        <div className="px-60 text-center mb-10">
+        <div className="md:px-60 text-center mb-10">
           <p className="text-white/70 text-md sm:text-lg">
             At AceAI Technologies, we build intelligent, scalable AI solutions
             designed for real-world impact. From automation to deep tech, our

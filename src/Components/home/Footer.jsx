@@ -1,5 +1,5 @@
 import React from "react";
-import footerlogo from "../../../public/serviceImages/Ace-Ai-logo.jpg";
+import footerlogo from "../../assets/serviceImages/Ace-Ai-logo.jpg";
 
 function Footer() {
   return (
@@ -34,7 +34,7 @@ function Footer() {
               <ul role="list" className="space-y-4 justify-center grid">
                 <li>
                   <a
-                    className="text-sm leading-6 text-gray-600  hover:text-white"
+                    className="text-sm leading-6 text-gray-400  hover:text-white"
                     href=""
                   >
                     Consulting
@@ -42,7 +42,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    className="text-sm leading-6  text-gray-600  hover:text-white"
+                    className="text-sm leading-6  text-gray-400  hover:text-white"
                     href=""
                   >
                     GenAI Course
@@ -50,7 +50,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    className="text-sm leading-6  text-gray-600  hover:text-white"
+                    className="text-sm leading-6  text-gray-400  hover:text-white"
                     href=""
                   >
                     BuildFast Studio
@@ -63,7 +63,7 @@ function Footer() {
               <ul role="list" className="space-y-4 justify-center grid">
                 <li>
                   <a
-                    className="text-sm leading-6  text-gray-600  hover:text-white"
+                    className="text-sm leading-6  text-gray-400  hover:text-white"
                     href="/resources"
                   >
                     Resources
@@ -71,7 +71,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    className="text-sm leading-6  text-gray-600  hover:text-white"
+                    className="text-sm leading-6  text-gray-400  hover:text-white"
                     href="/events"
                   >
                     Events
@@ -84,7 +84,7 @@ function Footer() {
               <ul role="list" className="space-y-4 justify-center grid">
                 <li>
                   <a
-                    className="text-sm leading-6  text-gray-600  hover:text-white"
+                    className="text-sm leading-6  text-gray-400  hover:text-white"
                     href=""
                   >
                     Privacy
@@ -92,7 +92,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    className="text-sm leading-6  text-gray-600  hover:text-white"
+                    className="text-sm leading-6  text-gray-400  hover:text-white"
                     href="/terms-and-conditions"
                   >
                     Terms
@@ -100,7 +100,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    className="text-sm leading-6  text-gray-600  hover:text-white"
+                    className="text-sm leading-6  text-gray-400  hover:text-white"
                     href=""
                   >
                     Refund

@@ -1,3 +1,7 @@
 @import "tailwindcss";
 
 
+.nav-item-active{
+    background-color: #1a2030;
+    color: white;
+}
