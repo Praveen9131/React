@@ -6,49 +6,49 @@ const services = [
     title: "AI for Semiconductor Design",
     description:
       "Accelerating chip design with machine learning, fault localization, and EDA optimization techniques.",
-    image: "/public/serviceImages/semiconductors.jog.png",
+    image: "../../../public/serviceimages/semiconductors.png",
   },
   {
     title: "AI in Education",
     description:
       "Enhancing personalized learning, automated assessment, and intelligent tutoring systems with AI.",
-    image: "/public/serviceImages/education.png",
+    image: "/public/serviceimages/education.png",
   },
   {
     title: "AI in Healthcare",
     description:
       "Empowering diagnostics, treatment planning, and patient monitoring through AI-driven insights.",
-    image: "/public/serviceImages/healthcare.png",
+    image: "/public/serviceimages/healthcare.png",
   },
   {
     title: "AI in Banking",
     description:
       "Enabling fraud detection, customer insights, and automated financial operations with smart AI tools.",
-    image: "/public/serviceImages/banking.png",
+    image: "/public/serviceimages/banking.png",
   },
   {
     title: "AI in Law & Enforcement",
     description:
       "Assisting in legal analytics, evidence review, and predictive policing with secure AI solutions.",
-    image: "/public/serviceImages/law.png",
+    image: "/public/serviceimages/law.png",
   },
   {
     title: "AI in Human Resources",
     description:
       "Optimizing recruitment, employee engagement, and talent analytics with intelligent automation.",
-    image: "/public/serviceImages/hr.png",
+    image: "/public/serviceimages/hr.png",
   },
   {
     title: "AI in Agriculture",
     description:
       "Boosting crop yield, disease detection, and resource efficiency using precision agriculture AI.",
-    image: "/public/serviceImages/agriculture.png",
+    image: "/public/serviceimages/agriculture.png",
   },
   {
     title: "AI in Finance",
     description:
       "Powering algorithmic trading, credit risk scoring, and real-time financial forecasting.",
-    image: "/public/serviceImages/finance.png",
+    image: "/public/serviceimages/finance.png",
   },
 ];
 const Service = () => {
