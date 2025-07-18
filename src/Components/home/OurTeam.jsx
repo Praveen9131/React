@@ -44,7 +44,7 @@ function OurTeam() {
             aria-controls="dialog-content-:rb:"
           >
             <img
-              src="/public/OurTeam img/directorAce-AI.png"
+              src="/OurTeam img/directorAce-AI.png"
               alt="Image Of Swaraj Bachu"
               class="h-80 w-full rounded-lg object-fill"
               style={{ opacity: "1" }}
@@ -77,7 +77,7 @@ function OurTeam() {
             aria-controls="dialog-content-:rc:"
           >
             <img
-              src="/public/OurTeam img/praveen.png"
+              src="/OurTeam img/praveen.png"
               alt=""
               class="h-80 w-full  rounded-lg object-fill"
               style={{ opacity: "1" }}
