@@ -9,7 +9,7 @@ const ServiceCard = ({ title, description, image, isFree }) => {
       </div>
 
       <div className="px-5 py-4 space-y-3">
-        <h3 className="text-lg sm:text-xl font-semibold leading-tight">
+        <h3 className="text-lg sm:text-lg font-semibold leading-tight">
           {title}
         </h3>
 

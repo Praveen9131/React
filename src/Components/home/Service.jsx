@@ -6,7 +6,7 @@ const services = [
     title: "AI for Semiconductor Design",
     description:
       "Accelerating chip design with machine learning, fault localization, and EDA optimization techniques.",
-    image: "../../../public/serviceimages/semiconductors.png",
+    image: "/public/serviceimages/semiconductors.png",
   },
   {
     title: "AI in Education",

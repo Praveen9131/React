@@ -2,8 +2,9 @@ import React from "react";
 import About from "./About.jsx";
 import Service from "./Service.jsx";
 import OurTeam from "./OurTeam.jsx";
+import Register from "./Register.jsx";
 import Footer from "./Footer.jsx";
-import video from "../../../public/serviceImages/videoaceAI.mp4";
+import video from "../../../public/serviceImages/herovideomp4.mp4";
 
 function HeroSection() {
   return (
@@ -71,6 +72,7 @@ function HeroSection() {
       <About />
       <Service />
       <OurTeam />
+      <Register />
       <Footer />
     </>
   );
