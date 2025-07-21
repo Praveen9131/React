@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceCard = ({ title, description, image, isFree }) => {
   return (
-    <div className="bg-[#0b1120] rounded-2xl shadow-lg overflow-hidden w-full max-w-sm text-white">
+    <div className="bg-[#0b1120] rounded-2xl shadow-lg overflow-hidden w-full max-w-sm text-white  transition-all duration-500 hover:-translate-y-2">
       <div className="relative h-56 overflow-hidden">
         <img src={image} alt={title} className="object-top w-full h-full" />
         {isFree && <div className=""></div>}

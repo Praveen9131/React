@@ -71,10 +71,10 @@ function Navbar() {
               </li>
               <li>
                 <Link
-                  to="/interns"
+                  to="/careers"
                   className="px-4 py-2 hover:text-white hover:bg-[#1a2030] rounded-full cursor-pointer"
                 >
-                  Interns
+                  Career
                 </Link>
               </li>
               <li>

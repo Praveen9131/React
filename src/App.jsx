@@ -1,9 +1,9 @@
 import Navbar from "./Components/Navbar.jsx";
 import "./App.css";
+import Careers from "./Components/careers.jsx";
 import HeroSection from "./Components/home/HeroSection.jsx";
-import CampusConnect from "./Components/CampusConnect.jsx";
+import CampusConnect from "./Components/Campusconnect/CampusConnect.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Interns from "./Components/Interns.jsx";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <main className="h-[calc(100vh-64px)]">
             <Routes>
               <Route path="/" element={<HeroSection />} />
-              <Route path="/interns" element={<Interns />} />
+              <Route path="/careers" element={<Careers />} />
               <Route path="/campus-connect" element={<CampusConnect />} />
             </Routes>
           </main>

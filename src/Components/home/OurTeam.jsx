@@ -66,6 +66,29 @@ function OurTeam() {
                 <div id="dialog-description-:rb:" style={{ opacity: "1" }}>
                   {/*  */}
                 </div>
+                <div className="absolute right-6 bottom-6">
+                  <button
+                    type="button"
+                    class="relative ml-1 flex h-6 w-6 shrink-0 scale-100 select-none appearance-none items-center justify-center rounded-lg border border-white/40 text-white transition-colors hover:bg-zinc-100 hover:text-zinc-800 focus-visible:ring-2 active:scale-[0.98] dark:border-zinc-50/10 dark:bg-zinc-900 dark:text-zinc-500 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:focus-visible:ring-zinc-500"
+                    aria-label="Open dialog"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-plus"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5v14"></path>
+                    </svg>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -97,6 +120,32 @@ function OurTeam() {
                 >
                   {" "}
                   Director of Ace AI
+                </div>
+                <div id="dialog-description-:rb:" style={{ opacity: "1" }}>
+                  {/*  */}
+                </div>
+                <div className="absolute right-6 bottom-6">
+                  <button
+                    type="button"
+                    class="relative ml-1 flex h-6 w-6 shrink-0 scale-100 select-none appearance-none items-center justify-center rounded-lg border border-white/40 text-white transition-colors hover:bg-zinc-100 hover:text-zinc-800 focus-visible:ring-2 active:scale-[0.98] dark:border-zinc-50/10 dark:bg-zinc-900 dark:text-zinc-500 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:focus-visible:ring-zinc-500"
+                    aria-label="Open dialog"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-plus"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5v14"></path>
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>

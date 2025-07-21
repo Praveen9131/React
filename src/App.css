@@ -1,7 +1,16 @@
 @import "tailwindcss";
 
+body{
+  font-family: Poppins,sans-serif;
+}
 
-.nav-item-active{
-    background-color: #1a2030;
-    color: white;
+
+.swiper_container {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  padding: 2rem 0;
+  position: relative;
+  overflow: hidden;
 }

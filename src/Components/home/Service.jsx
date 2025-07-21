@@ -58,7 +58,7 @@ const Service = () => {
         <h2 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600  mb-6 text-center">
           Our Services
         </h2>
-        <div className="md:px-60 text-center mb-10">
+        <div className="md:px-60 text-center mb-10 hover:">
           <p className="text-white/70 text-md sm:text-lg">
             At AceAI Technologies, we build intelligent, scalable AI solutions
             designed for real-world impact. From automation to deep tech, our
