@@ -58,7 +58,7 @@ const Careers = () => {
                 <h3 className="text-2xl font-semibold text-white">
                   {career.title}
                 </h3>
-                <span className="text-sm text-indigo-500 font-medium block mb-2">
+                <span className="text-sm text-indigo-400 font-medium block mb-2">
                   {career.type}
                 </span>
                 <p className="text-white/70 text-sm mb-4">{career.desc}</p>
