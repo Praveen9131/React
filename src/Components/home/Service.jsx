@@ -6,49 +6,49 @@ const services = [
     title: "AI for Semiconductor Design",
     description:
       "Accelerating chip design with machine learning, fault localization, and EDA optimization techniques.",
-    image: "/serviceimages/semiconductors.png",
+    image: "/serviceImages/semiconductors.png",
   },
   {
     title: "AI in Education",
     description:
       "Enhancing personalized learning, automated assessment, and intelligent tutoring systems with AI.",
-    image: "/serviceimages/education.png",
+    image: "/serviceImages/education.png",
   },
   {
     title: "AI in Healthcare",
     description:
       "Empowering diagnostics, treatment planning, and patient monitoring through AI-driven insights.",
-    image: "/serviceimages/healthcare.png",
+    image: "/serviceImages/healthcare.png",
   },
   {
     title: "AI in Banking",
     description:
       "Enabling fraud detection, customer insights, and automated financial operations with smart AI tools.",
-    image: "/serviceimages/banking.png",
+    image: "/serviceImages/banking.png",
   },
   {
     title: "AI in Law & Enforcement",
     description:
       "Assisting in legal analytics, evidence review, and predictive policing with secure AI solutions.",
-    image: "/serviceimages/law.png",
+    image: "/serviceImages/law.png",
   },
   {
     title: "AI in Human Resources",
     description:
       "Optimizing recruitment, employee engagement, and talent analytics with intelligent automation.",
-    image: "/serviceimages/hr.png",
+    image: "/serviceImages/hr.png",
   },
   {
     title: "AI in Agriculture",
     description:
       "Boosting crop yield, disease detection, and resource efficiency using precision agriculture AI.",
-    image: "/serviceimages/agriculture.png",
+    image: "/public/serviceImages/agriculture.png",
   },
   {
     title: "AI in Finance",
     description:
       "Powering algorithmic trading, credit risk scoring, and real-time financial forecasting.",
-    image: "/serviceimages/finance.png",
+    image: "/serviceImages/finance.png",
   },
 ];
 const Service = () => {

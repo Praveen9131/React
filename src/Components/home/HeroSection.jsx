@@ -4,7 +4,7 @@ import Service from "./Service.jsx";
 import OurTeam from "./OurTeam.jsx";
 import Register from "./Register.jsx";
 import Footer from "./Footer.jsx";
-import video from "../../../public/serviceimages/video.mp4";
+import video from "../../../public/serviceImages/video.mp4";
 
 function HeroSection() {
   return (
@@ -23,7 +23,7 @@ function HeroSection() {
           <div className="w-full max-w-4xl space-y-4 sm:space-y-6 md:space-y-8">
             <div className="space-y-3 sm:space-y-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[4rem] font-semibold tracking-tight text-white -ml-1">
-                Learn anything, anytime, <br className="hidden md:block" />
+                Learn anything, anytime, <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
                   anywhere.
                 </span>
@@ -34,7 +34,7 @@ function HeroSection() {
               <p className="max-w-xl text-base sm:text-lg md:text-xl text-sky-100/90 leading-relaxed">
                 Join <span className="font-bold text-white">20,000+</span>{" "}
                 professionals mastering practical AI development at{" "}
-                <b>Ace AI</b>
+                <b> Ace AI </b>
               </p>
               <p className="text-base sm:text-lg md:text-xl font-semibold text-white/90">
                 Learn. Build. Deploy.
@@ -69,11 +69,13 @@ function HeroSection() {
           </div>
         </div>
       </section>
-      <About />
-      <Service />
-      <OurTeam />
-      <Register />
-      <Footer />
+      <section>
+        <About />
+        <Service />
+        <OurTeam />
+        <Register />
+        <Footer />
+      </section>
     </>
   );
 }
