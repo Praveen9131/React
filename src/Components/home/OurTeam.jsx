@@ -100,7 +100,7 @@ function OurTeam() {
             aria-controls="dialog-content-:rc:"
           >
             <img
-              src="/OurTeam img/praveen.png"
+              src="/public/OurTeam img/praveen.jpg"
               alt=""
               class="h-80 w-full  rounded-lg object-fill"
               style={{ opacity: "1" }}

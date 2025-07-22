@@ -26,12 +26,12 @@ function Research() {
   ];
 
   return (
-    <section className="text-white bg-[#0a0f1e] py-16 px-6 md:px-12">
+    <section className="text-white bg-[#0a0f1e] py-10 px-6 md:px-12">
       <div className="max-w-7xl mx-auto text-center mb-12">
         <h2 className="text-4xl font-bold  text-white">
           Research & Innovation Engagement
         </h2>
-        <p className="mt-4 text-white/70 max-w-2xl mx-auto">
+        <p className="mt-4 text-white/70 max-w-2xl mx-auto md:text-lg">
           Empowering academic and industry collaboration through knowledge,
           tools, and innovation.
         </p>
@@ -50,9 +50,6 @@ function Research() {
               </h3>
               <p className="text-white/70 text-md mb-4">{item.desc}</p>
             </div>
-            <button className="mt-auto px-4 py-2 bg-white text-black text-sm font-medium rounded-md hover:bg-white/70 transition duration-300">
-              Learn More
-            </button>
           </div>
         ))}
       </div>

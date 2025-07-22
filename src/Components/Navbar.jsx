@@ -1,11 +1,13 @@
 import { useState } from "react";
 import logoImg from "../assets/Ace-Ai-logo.jpg";
 import Signin from "./Signin.jsx";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [showSignin, setShowSignin] = useState(false);
+
+  const location = useLocation();
 
   return (
     <>
@@ -14,7 +16,7 @@ function Navbar() {
           <a href="/" className="flex items-center space-x-2">
             <img src={logoImg} alt="Logo" className="h-12 w-12" />
             <div className="text-white text-sm">
-              <div className="font-bold">Ace AI</div>
+              <div className="font-semiBold">Ace AI</div>
               <div className="text-xs">Technology</div>
             </div>
           </a>
@@ -59,12 +61,15 @@ function Navbar() {
               isOpen ? "block" : "hidden"
             } lg:flex`}
           >
-            <ul className="flex flex-col  lg:flex-row items-center lg:space-x-6 text-[#c5bcbc] font-medium">
+            <ul className="flex flex-col  lg:flex-row lg:text-lg items-center lg:space-x-6 text-[#c5bcbc] font-medium">
               <li>
-                {" "}
                 <Link
                   to="/"
-                  className="px-4 py-2 hover:text-white hover:bg-[#1a2030] rounded-full cursor-pointer"
+                  className={`px-4 py-2 rounded-full cursor-pointer ${
+                    location.pathname === "/"
+                      ? "bg-[#1a2030] text-white"
+                      : "hover:text-white hover:bg-[#1a2030]"
+                  }`}
                 >
                   Home
                 </Link>
@@ -72,7 +77,11 @@ function Navbar() {
               <li>
                 <Link
                   to="/careers"
-                  className="px-4 py-2 hover:text-white hover:bg-[#1a2030] rounded-full cursor-pointer"
+                  className={`px-4 py-2 rounded-full cursor-pointer ${
+                    location.pathname === "/careers"
+                      ? "bg-[#1a2030] text-white"
+                      : "hover:text-white hover:bg-[#1a2030]"
+                  }`}
                 >
                   Career
                 </Link>
@@ -80,7 +89,11 @@ function Navbar() {
               <li>
                 <Link
                   to="/campus-connect"
-                  className="px-4 py-2 hover:text-white hover:bg-[#1a2030] rounded-full cursor-pointer"
+                  className={`px-4 py-2 rounded-full cursor-pointer ${
+                    location.pathname === "/campus-connect"
+                      ? "bg-[#1a2030] text-white"
+                      : "hover:text-white hover:bg-[#1a2030]"
+                  }`}
                 >
                   Campus Connect
                 </Link>

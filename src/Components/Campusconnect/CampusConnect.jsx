@@ -5,6 +5,7 @@ import javaimg from "/Coursesimgs/java.png";
 import mlimg from "/Coursesimgs/ml.png";
 import Research from "./Research";
 import Footer from "../home/Footer";
+import ContactUsButton from "../ContactUsBtn";
 
 function CampusConnect() {
   return (
@@ -35,6 +36,9 @@ function CampusConnect() {
           </div>
         </div>
       </section>
+
+      {/* our courses */}
+
       <section className="bg-[#0a0f1e]">
         <div class="text-center mb-20">
           <h2 class="text-4xl md:text-5xl font-bold text-white bg-clip-text mb-6">
@@ -159,7 +163,7 @@ function CampusConnect() {
         <div className="flex items-center justify-center pt-12">
           <a
             href=""
-            className="bg-white text-black py-4 px-28 text-xl font-semibold rounded-lg mt-8 hover:bg-white/80"
+            className="bg-white text-black py-3 px-28 text-xl font-semibold rounded-lg mt-8 hover:bg-white/80"
           >
             Explore All
           </a>
@@ -169,6 +173,9 @@ function CampusConnect() {
         <Aiworkshops />
         <Research />
       </section>
+      <div className="bg-[#0a0f1e]">
+        <ContactUsButton />
+      </div>
       <Footer></Footer>
     </>
   );
