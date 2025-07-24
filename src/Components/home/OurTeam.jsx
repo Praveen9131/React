@@ -35,7 +35,7 @@ function OurTeam() {
             }}
           />
         </div>
-        <div class="flex flex-wrap justify-center gap-7.5 lg:flex-nowrap xl:gap-12.5 p-3">
+        <div class="flex flex-wrap justify-center gap-7.5 lg:flex-nowrap xl:gap-50 p-3">
           <div
             class="cursor-pointer group relative rounded-lg border border-stroke bg-gray-700/30 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3"
             role="button"
@@ -146,35 +146,6 @@ function OurTeam() {
                       <path d="M12 5v14"></path>
                     </svg>
                   </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="cursor-pointer group relative rounded-lg border border-stroke  shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3"
-            role="button"
-            aria-haspopup="dialog"
-            aria-expanded="false"
-            aria-controls="dialog-content-:rd:"
-          >
-            <img
-              src=""
-              alt=""
-              class="h-80 w-full rounded-lg object-cover"
-              style={{ opacity: "1" }}
-            />
-            <div class="flex flex-grow flex-row items-end justify-between p-6">
-              {/*  */}
-              <div>
-                <div
-                  class="text-xl font-bold text-zinc-950 dark:text-zinc-50"
-                  style={{ opacity: "1" }}
-                ></div>
-                <div
-                  class="font-semibold text-zinc-700  dark:text-zinc-400"
-                  style={{ opacity: "1" }}
-                >
-                  {/*  */}
                 </div>
               </div>
             </div>

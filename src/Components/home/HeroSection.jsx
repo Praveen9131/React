@@ -32,7 +32,7 @@ function HeroSection() {
 
             <div className="space-y-3 sm:space-y-4">
               <p className="max-w-xl text-base sm:text-lg md:text-xl text-sky-100/90 leading-relaxed">
-                Join <span className="font-bold text-white">20,000+</span>{" "}
+                Join <span className="font-bold text-white"></span>{" "}
                 professionals mastering practical AI development at{" "}
                 <b> Ace AI </b>
               </p>
@@ -63,7 +63,7 @@ function HeroSection() {
                 </svg>
               </a>
               <button className="inline-flex items-center justify-center rounded-xl bg-white text-black hover:bg-white/90 h-11 px-8 w-full text-base">
-                Join Waitlist
+                Join With Us
               </button>
             </div>
           </div>
