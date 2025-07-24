@@ -23,21 +23,23 @@ function HeroSection() {
           <div className="w-full max-w-4xl space-y-4 sm:space-y-6 md:space-y-8">
             <div className="space-y-3 sm:space-y-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[4rem] font-semibold tracking-tight text-white -ml-1">
-                Learn anything, anytime, <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
-                  anywhere.
-                </span>
+                Empower your future with <br />
+                <div className="mt-4">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
+                    AI skills.
+                  </span>
+                </div>
               </h1>
             </div>
 
             <div className="space-y-3 sm:space-y-4">
               <p className="max-w-xl text-base sm:text-lg md:text-xl text-sky-100/90 leading-relaxed">
-                Join <span className="font-bold text-white"></span>{" "}
-                professionals mastering practical AI development at{" "}
+                Join <span className="font-bold text-white"></span> a thriving
+                community of innovators mastering hands-on AI development at{" "}
                 <b> Ace AI </b>
               </p>
               <p className="text-base sm:text-lg md:text-xl font-semibold text-white/90">
-                Learn. Build. Deploy.
+                Learn with experts. Build real projects. Deploy with confidence.{" "}
               </p>
             </div>
 
