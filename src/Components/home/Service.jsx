@@ -42,7 +42,7 @@ const services = [
     title: "AI in Agriculture",
     description:
       "Boosting crop yield, disease detection, and resource efficiency using precision agriculture AI.",
-    image: "/public/serviceImages/agriculture.png",
+    image: "/serviceImages/agriculture.png",
   },
   {
     title: "AI in Finance",
