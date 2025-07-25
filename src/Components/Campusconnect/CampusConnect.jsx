@@ -539,7 +539,7 @@ function CampusConnect() {
                 INR 8k
               </h3>
               <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-white">
-                Cloud Computing
+                Cloud Computing# Create an empty commit to force rebuild
               </h3>
               <p className="text-white/80 text-sm sm:text-base">
                 Learn cloud architecture, deployment, and management using AWS,
