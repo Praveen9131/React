@@ -1,6 +1,6 @@
 import Navbar from "./Components/Navbar.jsx";
 import "./App.css";
-import Careers from "./Components/careers.jsx";
+import Careers from "./Components/Careers.jsx";
 import HeroSection from "./Components/home/HeroSection.jsx";
 import CampusConnect from "./Components/Campusconnect/CampusConnect.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
