@@ -44,35 +44,103 @@ const jobListings = [
 const Careers = () => {
   return (
     <>
-      <div className="bg-blue-50 text-black min-h-screen py-10 px-4 md:px-16">
-        <h1 className="text-4xl font-bold mb-8 text-center">Open Roles</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {jobListings.map((job, idx) => (
-            <div
-              key={idx}
-              className="bg-white text-black rounded-xl p-6 shadow-sm shadow-gray-400 hover:shadow-2xl transition-all duration-300"
-            >
-              <h2 className="text-lg md:text-2xl font-semibold mb-3">
-                {job.title}
-              </h2>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {job.type.map((tag, i) => (
-                  <span
-                    key={i}
-                    className="bg-blue-200 text-blue-900 text-sm font-medium px-2.5 py-0.5 rounded border border-blue-300"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              <p className="text-sm text-gray-700 mb-6 line-clamp-3">
-                {job.description}
+      <section className="bg-black text-white py-16 px-4 md:px-12">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-6">
+            About Ace AI
+          </h2>
+          <p className="text-lg md:text-xl text-gray-300 mb-12">
+            At Ace AI, we're building the future of AI-powered collaboration.
+            Our mission is to bridge the gap between human creativity and
+            artificial intelligence, creating tools that enhance productivity
+            and innovation.
+          </p>
+
+          <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            {/* Card 1 */}
+            <div className="bg-gradient-to-b from-blue-800 to-blue-600 rounded-lg p-6 text-left shadow-lg">
+              <h3 className="text-xl font-semibold mb-3 text-white">
+                Our Culture
+              </h3>
+              <p className="text-gray-200">
+                We foster a culture of curiosity, experimentation, and
+                continuous learning. Every team member is encouraged to
+                contribute ideas and take ownership of their work.
               </p>
-              <ApplyBtn />
             </div>
-          ))}
+
+            {/* Card 2 */}
+            <div className="bg-gradient-to-b from-blue-800 to-blue-600 rounded-lg p-6 text-left shadow-lg">
+              <h3 className="text-xl font-semibold mb-3 text-white">
+                Our Values
+              </h3>
+              <ul className="text-gray-200 list-disc pl-5 space-y-1">
+                <li>
+                  <strong>Innovation:</strong> We push boundaries and challenge
+                  the status quo
+                </li>
+                <li>
+                  <strong>Collaboration:</strong> We believe in the power of
+                  diverse perspectives
+                </li>
+                <li>
+                  <strong>Impact:</strong> We focus on creating meaningful
+                  change
+                </li>
+                <li>
+                  <strong>Transparency:</strong> We communicate openly and
+                  honestly
+                </li>
+              </ul>
+            </div>
+
+            {/* Card 3 */}
+            <div className="bg-gradient-to-b from-blue-800 to-blue-600 rounded-lg p-6 text-left shadow-lg">
+              <h3 className="text-xl font-semibold mb-3 text-white">
+                Sprint-Driven Approach
+              </h3>
+              <p className="text-gray-200">
+                We work in focused weekly sprints, allowing us to iterate
+                quickly, gather feedback, and continuously improve our products.
+                This agile approach keeps us nimble and responsive to changing
+                needs.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section>
+        <div className="bg-blue-50 text-black min-h-screen py-10 px-4 md:px-16">
+          <h1 className="text-4xl font-bold mb-8 text-center">Open Roles</h1>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {jobListings.map((job, idx) => (
+              <div
+                key={idx}
+                className="bg-white text-black rounded-xl p-6 shadow-sm shadow-gray-400 hover:shadow-2xl transition-all duration-300"
+              >
+                <h2 className="text-lg md:text-2xl font-semibold mb-3">
+                  {job.title}
+                </h2>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {job.type.map((tag, i) => (
+                    <span
+                      key={i}
+                      className="bg-blue-200 text-blue-900 text-sm font-medium px-2.5 py-0.5 rounded border border-blue-300"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <p className="text-sm text-gray-700 mb-6 line-clamp-3">
+                  {job.description}
+                </p>
+                <ApplyBtn />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
       <div>
         <Footer></Footer>
       </div>

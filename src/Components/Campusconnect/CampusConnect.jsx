@@ -20,7 +20,7 @@ function CampusConnect() {
               </span>
             </h1>
             <div className="w-full flex justify-center items-center">
-              <p className="mt-4 text-gray-700 text-center w-1/2 text-lg md:text-xl">
+              <p className="mt-4 text-gray-700 text-center md:w-1/2 text-lg md:text-xl">
                 Bridge the gap between students, companies, and opportunities.
                 Discover internships, and collaborations that shape your future.
               </p>
@@ -150,10 +150,7 @@ function CampusConnect() {
             </div>
 
             {/* Machine Learning Course */}
-            <div
-              className="animate_top group relative h-fit sm:p-7.5 shadow-xl
-            "
-            >
+            <div className="animate_top group relative h-fit p-6 sm:p-7.5 shadow-xl bg-white">
               <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
                 INR 4.5k
               </h3>
