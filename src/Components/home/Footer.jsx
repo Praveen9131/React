@@ -1,10 +1,10 @@
 import React from "react";
-import footerlogo from "../../../public/serviceImages/Ace-Ai-logo.jpg";
+import footerlogo from "../../../public/homeImgs/footerlogo.jpg";
 
 function Footer() {
   return (
     <footer
-      className="false border-t border-gray-700 text-white bg-[#0a0f1e]"
+      className="false border-t border-gray-400 text-white bg-black"
       aria-labelledby="footer-heading"
     >
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 lg:px-8">
@@ -46,14 +46,6 @@ function Footer() {
                     href=""
                   >
                     GenAI Course
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="text-sm leading-6  text-gray-400  hover:text-white"
-                    href=""
-                  >
-                    BuildFast Studio
                   </a>
                 </li>
               </ul>

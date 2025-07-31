@@ -27,14 +27,14 @@ function Aiworkshops() {
   ];
 
   return (
-    <section className="bg-[#0a0f1e] py-24 px-4">
-      <h2 className="text-2xl md:text-5xl font-bold text-white text-center mb-4">
+    <section className="py-24 px-4">
+      <h2 className="text-2xl md:text-5xl font-bold text-black text-center mb-4">
         Workshops
       </h2>
       <div className="flex items-center justify-center mb-4">
-        <p className="text-white/70 text-md md:text-lg text-center md:w-1/2 ">
+        <p className="text-black/70 text-md md:text-lg text-center md:w-1/2 ">
           Ace AI promotes learning and innovation through guest lectures,
-          seminars, hackathons, and exhibitions—connecting academia and industry
+          seminars, hackathons, and exhibitions connecting academia and industry
           to empower students and professionals in the evolving field of
           artificial intelligence.
         </p>
