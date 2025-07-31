@@ -12,11 +12,11 @@ function App() {
         <div className="flex flex-col min-h-screen ">
           <Navbar />
 
-          <main className="h-[calc(100vh-64px)]">
+          <main className="h-[calc(100%-64px)]">
             <Routes>
               <Route path="/" element={<HeroSection />} />
-              <Route path="/careers" element={<Careers />} />
               <Route path="/campus-connect" element={<CampusConnect />} />
+              <Route path="/careers" element={<Careers />} />
             </Routes>
           </main>
         </div>
