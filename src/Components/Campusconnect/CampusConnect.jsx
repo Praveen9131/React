@@ -55,10 +55,10 @@ function CampusConnect() {
             {/* Python Course */}
             <div className="animate_top group relative h-fit shadow-xl bg-white p-6 sm:p-7.5">
               <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
-                INR 4.5k
+                Python
               </h3>
               <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
-                Python
+                INR 4.5k
               </h3>
               <p className="text-black/80 text-sm sm:text-base">
                 Master Python programming, covering fundamentals, data analysis,
@@ -103,10 +103,10 @@ function CampusConnect() {
             {/* Java Course */}
             <div className="animate_top group relative h-fit p-6 sm:p-7.5 shadow-xl bg-white">
               <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
-                INR 5k
+                Java
               </h3>
               <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
-                Java
+                INR 5k
               </h3>
               <p className="text-black/80 text-sm sm:text-base">
                 Learn Java programming from basics to advanced, including OOP,
@@ -152,10 +152,10 @@ function CampusConnect() {
             {/* Machine Learning Course */}
             <div className="animate_top group relative h-fit p-6 sm:p-7.5 shadow-xl bg-white">
               <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
-                INR 4.5k
+                Machine Learning
               </h3>
               <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
-                Machine Learning
+                INR 4.5k
               </h3>
               <p className="text-black/80 text-sm sm:text-base">
                 Explore algorithms, neural networks, and data modeling
@@ -201,10 +201,10 @@ function CampusConnect() {
             {/* AI Master Class Course */}
             <div className="animate_top group relative h-fit p-6 sm:p-7.5 shadow-xl">
               <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
-                INR 12.5k
+                AI Master Class
               </h3>
               <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
-                AI Master Class
+                INR 12.5k
               </h3>
               <p className="text-black text-sm sm:text-base">
                 A comprehensive course covering AI fundamentals, machine
@@ -250,10 +250,10 @@ function CampusConnect() {
             {/* Generative AI Course */}
             <div className="animate_top group relative h-fit rounded-lg  p-6 sm:p-7.5 shadow-xl">
               <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
-                INR 5k
+                Generative AI
               </h3>
               <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
-                Generative AI
+                INR 5k
               </h3>
               <p className="text-black text-sm sm:text-base">
                 Build advanced generative models like GANs and LLMs to create
@@ -298,10 +298,10 @@ function CampusConnect() {
             {/* Agentics AI Course */}
             <div className="animate_top group relative h-fit rounded-lg p-6 sm:p-7.5 shadow-xl">
               <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
-                INR 7k
+                Agentics AI
               </h3>
               <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
-                Agentics AI
+                INR 7k
               </h3>
               <p className="text-black/80 text-sm sm:text-base">
                 Develop intelligent AI agents capable of autonomous
@@ -346,12 +346,12 @@ function CampusConnect() {
             {/* Frontend Development Course */}
             <div className="animate_top group relative h-fit  p-6 sm:p-7.5 shadow-xl">
               <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
-                INR 5k
-              </h3>
-              <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
                 Frontend Development
               </h3>
-              <p className="text-white/80 text-sm sm:text-base">
+              <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
+                INR 5k
+              </h3>
+              <p className="text-black/80 text-sm sm:text-base">
                 Design responsive, user-friendly web interfaces using modern
                 frameworks like React, Vue.js, and Angular.
               </p>
@@ -394,10 +394,10 @@ function CampusConnect() {
             {/* Backend Development Course */}
             <div className="animate_top group relative h-fit p-6 sm:p-7.5 shadow-xl">
               <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
-                INR 6.5k
+                Backend Development
               </h3>
               <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
-                Backend Development
+                INR 6.5k
               </h3>
               <p className="text-black/80 text-sm sm:text-base">
                 Develop scalable backend systems with Node.js, Django, and
@@ -442,10 +442,10 @@ function CampusConnect() {
             {/* MLOps Course */}
             <div className="animate_top group relative h-fit p-6 sm:p-7.5 shadow-xl">
               <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
-                INR 5.5k
+                MLOps
               </h3>
               <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
-                MLOps
+                INR 5.5k
               </h3>
               <p className="text-black text-sm sm:text-base">
                 Learn to deploy and manage machine learning models at scale
@@ -490,10 +490,10 @@ function CampusConnect() {
             {/* Devops Course */}
             <div className="animate_top group relative h-fit shadow-xl p-6 sm:p-7.5 ">
               <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
-                INR 10k
+                Devops
               </h3>
               <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
-                Devops
+                INR 10k
               </h3>
               <p className="text-black text-sm sm:text-base">
                 Master DevOps practices, including CI/CD pipelines,
@@ -538,10 +538,10 @@ function CampusConnect() {
             {/* Cloud Computing Course */}
             <div className="animate_top group relative h-fit p-6 sm:p-7 shadow-xl">
               <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
-                INR 8k
+                Cloud Computing
               </h3>
               <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
-                Cloud Computing
+                INR 8k
               </h3>
               <p className="text-black text-sm sm:text-base">
                 Learn cloud architecture, deployment, and management using AWS,

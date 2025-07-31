@@ -94,7 +94,7 @@ function Navbar() {
           <div className="hidden lg:flex flex-1 justify-center">
             <nav className="flex items-center">
               <ul className="flex space-x-4">
-                {["/", "/careers", "/campus-connect"].map((path, index) => (
+                {["/", "/campus-connect", "/careers"].map((path, index) => (
                   <li key={path}>
                     <Link
                       to={path}
@@ -104,7 +104,7 @@ function Navbar() {
                           : "hover:text-black hover:bg-blue-200"
                       }`}
                     >
-                      {["Home", "Career", "Campus Connect"][index]}
+                      {["Home", "Campus Connect", "Career"][index]}
                     </Link>
                   </li>
                 ))}
