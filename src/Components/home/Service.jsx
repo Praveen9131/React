@@ -1,5 +1,4 @@
 import React from "react";
-import ContactUsButton from "../ContactUsBtn";
 import { FaSunPlantWilt } from "react-icons/fa6";
 import {
   FaBookOpen as FaBookS,
@@ -52,9 +51,7 @@ const Service = () => {
   return (
     <section className="bg-[#1c1c1c] text-white py-16 px-4 md:px-12">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold">
-          Services<span className="text-blue-500">.</span>
-        </h2>
+        <h2 className="text-4xl font-bold">Services</h2>
         <p className="mt-4 text-lg max-w-3xl mx-auto">
           From regulated sectors to fast-moving markets, we build tailored AI
           solutions that solve real-world challenges and integrate seamlessly
@@ -77,9 +74,6 @@ const Service = () => {
             </p>
           </div>
         ))}
-      </div>
-      <div className="mt-12">
-        <ContactUsButton />
       </div>
     </section>
   );

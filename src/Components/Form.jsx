@@ -21,7 +21,7 @@ const Form = () => {
   };
 
   return (
-    <section className="bg-black py-16 px-4 mt-30">
+    <section className="bg-gradient-to-b from-gray-300 to-gray-100 py-16 px-4 mt-30">
       <div className="max-w-4xl mx-auto bg-white shadow-xl rounded-xl p-8 md:p-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6 text-center">
           Contact Us
@@ -30,7 +30,6 @@ const Form = () => {
           Have questions, ideas, or partnership opportunities? Fill out the form
           and we'll get back to you shortly.
         </p>
-
         <form
           onSubmit={handleSubmit}
           className="grid grid-cols-1 md:grid-cols-2 gap-6"

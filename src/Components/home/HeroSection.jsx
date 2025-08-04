@@ -4,12 +4,11 @@ import About from "./About.jsx";
 import Choose from "./Choose.jsx";
 import Approach from "./Approach.jsx";
 import Service from "./Service.jsx";
-import OurTeam from "./Technologies.jsx";
-import Register from "./Engagement.jsx";
 import GetStarted from "./GetStart.jsx";
 import Footer from "./Footer.jsx";
 import Engagement from "./Engagement.jsx";
 import Technologies from "./Technologies.jsx";
+import { Link } from "react-router-dom";
 
 function HeroSection() {
   return (
@@ -30,9 +29,6 @@ function HeroSection() {
               tailored to your business needs – enabling automation, smarter
               analytics, and scalable transformation across operations.
             </p>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md text-lg transition">
-              Book a Free Consultation
-            </button>
           </div>
 
           {/* Right image */}
@@ -43,6 +39,14 @@ function HeroSection() {
               className="w-full h-full object-cover "
             />
           </div>
+        </div>
+        <div className="mt-6 md:mt-0 md:pl-12">
+          <Link
+            to="/get-in-touch"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-md text-lg transition"
+          >
+            Book a Free Consultation
+          </Link>
         </div>
       </section>
       <section>

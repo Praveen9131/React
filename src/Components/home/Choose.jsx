@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import {
   Wrench,
   Settings,
@@ -51,9 +53,7 @@ const Choose = () => {
   return (
     <div className="bg-white py-20 px-4 sm:px-8 lg:px-16">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-4">
-          Why Choose Ace AI<span className="text-blue-500">.</span>
-        </h2>
+        <h2 className="text-4xl font-bold mb-4">Why Choose Ace AI</h2>
         <p className="text-gray-600 md:text-lg max-w-3xl mx-auto">
           When it comes to building enterprise-grade AI, you need more than
           strategy – you need a partner who can deliver at scale. Ace AI brings
@@ -76,9 +76,12 @@ const Choose = () => {
         ))}
       </div>
       <div className="flex items-center justify-center w-full col-span-1 sm:col-span-2 lg:col-span-3 py-10">
-        <button className="px-6 py-2 bg-blue-500 text-white rounded-xl text-lg font-medium hover:bg-blue-600 transition">
+        <Link
+          to="/get-in-touch"
+          className="px-6 py-2 bg-blue-500 text-white rounded-xl text-lg font-medium hover:bg-blue-600 transition"
+        >
           Explore the Ace Ai Advantages
-        </button>
+        </Link>
       </div>
     </div>
   );

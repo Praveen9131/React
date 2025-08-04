@@ -5,6 +5,7 @@ import Footer from "../home/Footer";
 import { div } from "framer-motion/client";
 import Collaboration from "./Collaboration";
 import Form from "../Form";
+import { Link } from "react-router-dom";
 
 function CampusConnect() {
   return (
@@ -26,12 +27,12 @@ function CampusConnect() {
               </p>
             </div>
             <div className="mt-10 flex justify-center md:justify-center gap-10">
-              <button className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition">
+              <Link
+                to="/get-in-touch"
+                className="px-8 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition"
+              >
                 Get Started
-              </button>
-              <button className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-100 transition">
-                Learn More
-              </button>
+              </Link>
             </div>
           </div>
         </div>

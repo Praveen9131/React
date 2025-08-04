@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -9,7 +10,6 @@ function About() {
 
         <h2 className="text-2xl md:text-4xl font-bold text-center text-black mb-6">
           Why Your Business Needs AI Solution Providers
-          <span className="text-blue-500">.</span>
         </h2>
 
         <p className="text-center md:text-lg text-gray-600 max-w-3xl mx-auto mb-12 px-2">
@@ -69,9 +69,12 @@ function About() {
 
           {/* CTA Button */}
           <div className="flex items-center justify-center w-full mt-10">
-            <button className="px-6 py-3 bg-blue-500 text-white rounded-xl text-lg font-medium hover:bg-blue-600 transition">
+            <Link
+              to="/get-in-touch"
+              className="px-6 py-2 bg-blue-500 text-white rounded-xl text-lg font-medium hover:bg-blue-600 transition"
+            >
               Let’s Talk About Our Business
-            </button>
+            </Link>
           </div>
         </div>
       </div>

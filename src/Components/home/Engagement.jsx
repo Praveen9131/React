@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaUsers, FaCogs, FaLightbulb, FaMagic, FaTools } from "react-icons/fa";
 
 const engagementModels = [
@@ -41,7 +42,7 @@ const Engagement = () => {
   return (
     <section className="bg-gray-100 py-16 px-4 text-center">
       <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-        Our Engagement Models<span className="text-blue-500">.</span>
+        Our Engagement Models
       </h2>
       <p className="text-gray-600 max-w-2xl md:text-lg mx-auto mb-12">
         Flexible engagement formats to suit your delivery timelines, internal
@@ -86,9 +87,12 @@ const Engagement = () => {
         ))}
       </div>
       <div className="flex items-center justify-center w-full col-span-1 sm:col-span-2 lg:col-span-3 py-10">
-        <button className="px-6 py-2 bg-blue-500 text-white rounded-xl text-lg font-medium hover:bg-blue-600 transition">
+        <Link
+          to="/get-in-touch"
+          className="px-6 py-2 bg-blue-500 text-white rounded-xl text-lg font-medium hover:bg-blue-600 transition"
+        >
           Let’s Build Our Partnership
-        </button>
+        </Link>
       </div>
     </section>
   );
