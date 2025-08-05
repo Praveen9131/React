@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Approach = () => {
   const approachSections = [
@@ -48,7 +49,7 @@ const Approach = () => {
         {/* Header */}
         <div className="mb-16 text-center">
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Our Approach<span className="text-blue-600">.</span>
+            Our Approach
           </h1>
           <div className="flex justify-center items-center">
             <p className="text-gray-600 w-4xl text-center md:text-lg">
@@ -105,9 +106,12 @@ const Approach = () => {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">
             Start Your AI Journey With Us
           </h2>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition">
+          <Link
+            to="/get-in-touch"
+            className="px-6 py-2 bg-blue-500 text-white rounded-xl text-lg font-medium hover:bg-blue-600 transition"
+          >
             Contact Our Experts
-          </button>
+          </Link>
         </div>
       </div>
     </div>

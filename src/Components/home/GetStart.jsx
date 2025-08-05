@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import {
   FaPaperPlane,
   FaProjectDiagram,
   FaChartBar,
-  FaPhone,
+  FaCogs,
 } from "react-icons/fa";
 
 const steps = [
@@ -33,7 +35,7 @@ const steps = [
     title: "Implementation",
     description:
       "From model training and integration to MLOps and we deliver scalable AI systems with continuous support.",
-    icon: <FaPhone className="text-5xl text-gray-300 mx-auto" />,
+    icon: <FaCogs className="text-5xl text-gray-300 mx-auto" />,
   },
 ];
 
@@ -41,7 +43,7 @@ const GetStarted = () => {
   return (
     <section className="bg-black text-white py-16 px-6 text-center">
       <h2 className="text-4xl md:text-5xl font-bold mb-4">
-        Get Started <span className="text-blue-500">with Us.</span>
+        Get Started <span className="text-blue-500">with Us</span>
       </h2>
       <p className="text-gray-300 max-w-3xl mx-auto mb-12 text-lg">
         Whether you’re exploring AI for the first time or scaling
@@ -66,10 +68,14 @@ const GetStarted = () => {
           </div>
         ))}
       </div>
-
-      <button className="mt-12 bg-blue-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-600 transition">
-        Explore the AceAI Advantage →
-      </button>
+      <div className="flex items-center justify-center w-full col-span-1 sm:col-span-2 lg:col-span-3 py-6">
+        <Link
+          to="/get-in-touch"
+          className="mt-12 px-6 py-2 bg-blue-500 text-white rounded-full text-lg font-medium hover:bg-blue-600 transition"
+        >
+          Explore the AceAI Advantage →
+        </Link>
+      </div>
     </section>
   );
 };

@@ -6,6 +6,7 @@ import { div } from "framer-motion/client";
 import Collaboration from "./Collaboration";
 import WhyConnect from "./WhyConnect";
 import Form from "../Form";
+import { Link } from "react-router-dom";
 
 function CampusConnect() {
   return (
@@ -27,12 +28,12 @@ function CampusConnect() {
               </p>
             </div>
             <div className="mt-10 flex justify-center md:justify-center gap-10">
-              <button className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition">
+              <Link
+                to="/get-in-touch"
+                className="px-8 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition"
+              >
                 Get Started
-              </button>
-              <button className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-100 transition">
-                Learn More
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -58,11 +59,14 @@ function CampusConnect() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 p-3 w-full">
             {/* Python Course */}
             <div className="animate_top group relative h-fit shadow-xl bg-white p-6 sm:p-7.5">
-              <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
+              <h3 className="mb-3 text-2xl sm:text-3xl font-bold text-black">
                 Python
               </h3>
-              <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
+              <h3 className="mb-2 text-xl sm:text-2xl font-bold text-black">
                 INR 4.5k
+                <span className="text-xs sm:text-sm text-gray-700 px-2 py-1  rounded-full">
+                  One Time
+                </span>
               </h3>
               <p className="text-black/80 text-sm sm:text-base">
                 Master Python programming, covering fundamentals, data analysis,
@@ -70,16 +74,16 @@ function CampusConnect() {
               </p>
               <div className="mt-6 sm:mt-9 border-t border-stroke pb-10 sm:pb-12 pt-6 sm:pt-9 border-0">
                 <ul>
-                  <li className="mb-3 sm:mb-4 text-black/80 text-sm sm:text-base">
+                  <li className="mb-3 sm:mb-4 text-black text-sm sm:text-base">
                     Live Classes
                   </li>
-                  <li className="mb-3 sm:mb-4 text-black/80 text-sm sm:text-base">
+                  <li className="mb-3 sm:mb-4 text-black text-sm sm:text-base">
                     3 months course
                   </li>
-                  <li className="mb-3 sm:mb-4 text-black/80 text-sm sm:text-base">
+                  <li className="mb-3 sm:mb-4 text-black text-sm sm:text-base">
                     Lifetime of access
                   </li>
-                  <li className="mb-3 sm:mb-4 text-black/80 text-sm sm:text-base">
+                  <li className="mb-3 sm:mb-4 text-black text-sm sm:text-base">
                     Project Based Learning
                   </li>
                 </ul>
@@ -106,11 +110,14 @@ function CampusConnect() {
 
             {/* Java Course */}
             <div className="animate_top group relative h-fit p-6 sm:p-7.5 shadow-xl bg-white">
-              <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
+              <h3 className="mb-3 text-2xl sm:text-3xl font-bold text-black">
                 Java
               </h3>
-              <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
+              <h3 className="mb-2 text-xl sm:text-2xl font-bold text-black">
                 INR 5k
+                <span className="text-xs sm:text-sm text-gray-700 px-2 py-1  rounded-full">
+                  One Time
+                </span>
               </h3>
               <p className="text-black/80 text-sm sm:text-base">
                 Learn Java programming from basics to advanced, including OOP,
@@ -119,16 +126,16 @@ function CampusConnect() {
               </p>
               <div className="mt-5 sm:mt-5 border-t border-stroke pb-8 sm:pb-10 pt-6 sm:pt-9">
                 <ul>
-                  <li className="mb-3 sm:mb-4 text-black/80 text-sm sm:text-base">
+                  <li className="mb-3 sm:mb-4 text-black text-sm sm:text-base">
                     Live Classes
                   </li>
-                  <li className="mb-3 sm:mb-4 text-black/80 text-sm sm:text-base">
+                  <li className="mb-3 sm:mb-4 text-black text-sm sm:text-base">
                     3 months course
                   </li>
-                  <li className="mb-3 sm:mb-4 text-black/80 text-sm sm:text-base">
+                  <li className="mb-3 sm:mb-4 text-black text-sm sm:text-base">
                     Lifetime of access
                   </li>
-                  <li className="mb-3 sm:mb-4 text-black/80 text-sm sm:text-base">
+                  <li className="mb-3 sm:mb-4 text-black text-sm sm:text-base">
                     Project Based Learning
                   </li>
                 </ul>
@@ -155,11 +162,14 @@ function CampusConnect() {
 
             {/* Machine Learning Course */}
             <div className="animate_top group relative h-fit p-6 sm:p-7.5 shadow-xl bg-white">
-              <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
+              <h3 className="mb-3 text-2xl sm:text-3xl font-bold text-black">
                 Machine Learning
               </h3>
-              <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
+              <h3 className="mb-2 text-xl sm:text-2xl font-bold text-black">
                 INR 4.5k
+                <span className="text-xs sm:text-sm text-gray-700 px-2 py-1  rounded-full">
+                  One Time
+                </span>
               </h3>
               <p className="text-black/80 text-sm sm:text-base">
                 Explore algorithms, neural networks, and data modeling
@@ -204,11 +214,14 @@ function CampusConnect() {
 
             {/* AI Master Class Course */}
             <div className="animate_top group relative h-fit p-6 sm:p-7.5 shadow-xl">
-              <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
+              <h3 className="mb-3 text-2xl sm:text-3xl font-bold text-black">
                 AI Master Class
               </h3>
-              <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
+              <h3 className="mb-2 text-xl sm:text-2xl font-bold text-black">
                 INR 12.5k
+                <span className="text-xs sm:text-sm text-gray-700 px-2 py-1  rounded-full">
+                  One Time
+                </span>
               </h3>
               <p className="text-black text-sm sm:text-base">
                 A comprehensive course covering AI fundamentals, machine
@@ -253,11 +266,14 @@ function CampusConnect() {
 
             {/* Generative AI Course */}
             <div className="animate_top group relative h-fit rounded-lg  p-6 sm:p-7.5 shadow-xl">
-              <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
+              <h3 className="mb-3 text-2xl sm:text-3xl font-bold text-black">
                 Generative AI
               </h3>
-              <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
+              <h3 className="mb-2 text-xl sm:text-2xl font-bold text-black">
                 INR 5k
+                <span className="text-xs sm:text-sm text-gray-700 px-2 py-1  rounded-full">
+                  One Time
+                </span>
               </h3>
               <p className="text-black text-sm sm:text-base">
                 Build advanced generative models like GANs and LLMs to create
@@ -301,11 +317,14 @@ function CampusConnect() {
 
             {/* Agentics AI Course */}
             <div className="animate_top group relative h-fit rounded-lg p-6 sm:p-7.5 shadow-xl">
-              <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
+              <h3 className="mb-4 text-2xl sm:text-4xl font-bold text-black">
                 Agentics AI
               </h3>
-              <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
+              <h3 className="mb-2 text-xl sm:text-3xl font-bold text-black">
                 INR 7k
+                <span className="text-xs sm:text-sm text-gray-700 px-2 py-1  rounded-full">
+                  One Time
+                </span>
               </h3>
               <p className="text-black/80 text-sm sm:text-base">
                 Develop intelligent AI agents capable of autonomous
@@ -313,16 +332,16 @@ function CampusConnect() {
               </p>
               <div className="mt-6 sm:mt-9 border-t border-stroke pb-10 sm:pb-12 pt-6 sm:pt-9">
                 <ul>
-                  <li className="mb-3 sm:mb-4 text-black/80 text-sm sm:text-base">
+                  <li className="mb-3 sm:mb-4 text-black text-sm sm:text-base">
                     Live Classes
                   </li>
-                  <li className="mb-3 sm:mb-4 text-black/80 text-sm sm:text-base">
+                  <li className="mb-3 sm:mb-4 text-black text-sm sm:text-base">
                     3 months course
                   </li>
-                  <li className="mb-3 sm:mb-4 text-black/80 text-sm sm:text-base">
+                  <li className="mb-3 sm:mb-4 text-black text-sm sm:text-base">
                     Lifetime of access
                   </li>
-                  <li className="mb-3 sm:mb-4 text-black/80 text-sm sm:text-base">
+                  <li className="mb-3 sm:mb-4 text-black text-sm sm:text-base">
                     Project Based Learning
                   </li>
                 </ul>
@@ -349,11 +368,14 @@ function CampusConnect() {
 
             {/* Frontend Development Course */}
             <div className="animate_top group relative h-fit  p-6 sm:p-7.5 shadow-xl">
-              <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
+              <h3 className="mb-3 text-2xl sm:text-3xl font-bold text-black">
                 Frontend Development
               </h3>
-              <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
+              <h3 className="mb-2 text-xl sm:text-2xl font-bold text-black">
                 INR 5k
+                <span className="text-xs sm:text-sm text-gray-700 px-2 py-1  rounded-full">
+                  One Time
+                </span>
               </h3>
               <p className="text-black/80 text-sm sm:text-base">
                 Design responsive, user-friendly web interfaces using modern
@@ -397,11 +419,14 @@ function CampusConnect() {
 
             {/* Backend Development Course */}
             <div className="animate_top group relative h-fit p-6 sm:p-7.5 shadow-xl">
-              <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
+              <h3 className="mb-3 text-2xl sm:text-3xl font-bold text-black">
                 Backend Development
               </h3>
-              <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
+              <h3 className="mb-2 text-xl sm:text-2xl font-bold text-black">
                 INR 6.5k
+                <span className="text-xs sm:text-sm text-gray-700 px-2 py-1  rounded-full">
+                  One Time
+                </span>
               </h3>
               <p className="text-black/80 text-sm sm:text-base">
                 Develop scalable backend systems with Node.js, Django, and
@@ -445,11 +470,14 @@ function CampusConnect() {
 
             {/* MLOps Course */}
             <div className="animate_top group relative h-fit p-6 sm:p-7.5 shadow-xl">
-              <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
+              <h3 className="mb-3 text-2xl sm:text-3xl font-bold text-black">
                 MLOps
               </h3>
-              <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
+              <h3 className="mb-2 text-xl sm:text-2xl font-bold text-black">
                 INR 5.5k
+                <span className="text-xs sm:text-sm text-gray-700 px-2 py-1  rounded-full">
+                  One Time
+                </span>
               </h3>
               <p className="text-black text-sm sm:text-base">
                 Learn to deploy and manage machine learning models at scale
@@ -493,11 +521,14 @@ function CampusConnect() {
 
             {/* Devops Course */}
             <div className="animate_top group relative h-fit shadow-xl p-6 sm:p-7.5 ">
-              <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
+              <h3 className="mb-3 text-2xl sm:text-3xl font-bold text-black">
                 Devops
               </h3>
-              <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
+              <h3 className="mb-2 text-xl sm:text-2xl font-bold text-black">
                 INR 10k
+                <span className="text-xs sm:text-sm text-gray-700 px-2 py-1  rounded-full">
+                  One Time
+                </span>
               </h3>
               <p className="text-black text-sm sm:text-base">
                 Master DevOps practices, including CI/CD pipelines,
@@ -541,11 +572,14 @@ function CampusConnect() {
 
             {/* Cloud Computing Course */}
             <div className="animate_top group relative h-fit p-6 sm:p-7 shadow-xl">
-              <h3 className="mb-5 text-2xl sm:text-3xl font-bold text-black">
+              <h3 className="mb-3 text-2xl sm:text-3xl font-bold text-black">
                 Cloud Computing
               </h3>
-              <h3 className="mb-2 text-xl sm:text-2xl font-semiBold text-black">
+              <h3 className="mb-2 text-xl sm:text-2xl font-bold text-black">
                 INR 8k
+                <span className="text-xs sm:text-sm text-gray-700 px-2 py-1  rounded-full">
+                  One Time
+                </span>
               </h3>
               <p className="text-black text-sm sm:text-base">
                 Learn cloud architecture, deployment, and management using AWS,
