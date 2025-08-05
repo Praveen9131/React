@@ -4,6 +4,7 @@ import Research from "./Research";
 import Footer from "../home/Footer";
 import { div } from "framer-motion/client";
 import Collaboration from "./Collaboration";
+import WhyConnect from "./WhyConnect";
 import Form from "../Form";
 
 function CampusConnect() {
@@ -35,6 +36,9 @@ function CampusConnect() {
             </div>
           </div>
         </div>
+      </section>
+      <section>
+        <WhyConnect />
       </section>
 
       {/* our courses */}
