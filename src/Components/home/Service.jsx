@@ -10,40 +10,40 @@ import {
 
 const industries = [
   {
-    icon: <FaMicrochip size={40} />,
-    title: "AI for Semiconductor Design",
-    description:
-      "Accelerating chip design with machine learning, fault localization, and EDA optimization techniques.",
-  },
-  {
-    icon: <FaBookS size={40} />,
-    title: "AI in Education",
-    description:
-      "Enhancing personalized learning, automated assessment, and intelligent tutoring systems with AI.",
-  },
-  {
     icon: <FaHeart size={40} />,
-    title: "AI in Healthcare",
+    title: "Healthcare",
     description:
       "Empowering diagnostics, treatment planning, and patient monitoring through AI-driven insights..",
   },
   {
+    icon: <FaBookS size={40} />,
+    title: "Education",
+    description:
+      "Enhancing personalized learning, automated assessment, and intelligent tutoring systems with AI.",
+  },
+  {
     icon: <FaBuilding size={40} />,
-    title: "AI in Banking",
+    title: "Banking",
     description:
       "Enabling fraud detection, customer insights, and automated financial operations with smart AI tools.",
   },
   {
     icon: <FaPiggyBank size={40} />,
-    title: "AI in Finance",
+    title: "Finance",
     description:
       "Advanced analytics for fraud detection, credit scoring, and risk assessment with real-time financial monitoring.",
   },
   {
     icon: <FaSunPlantWilt size={40} />,
-    title: "AI in Agriculture",
+    title: "Agriculture",
     description:
       "Boosting crop yield, disease detection, and resource efficiency using precision agriculture AI.",
+  },
+  {
+    icon: <FaMicrochip size={40} />,
+    title: "Semiconductor",
+    description:
+      "Accelerating chip design with machine learning, fault localization, and EDA optimization techniques.",
   },
 ];
 
