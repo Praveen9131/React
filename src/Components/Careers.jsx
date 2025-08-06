@@ -4,13 +4,13 @@ import Footer from "./home/Footer.jsx";
 
 const jobListings = [
   {
-    title: "Frontend Developer Intern",
+    title: "Frontend Developer",
     type: ["Interns", "FullTime"],
     description:
       "Work with modern frontend frameworks and enhance your skills in React.js while building real-world UI experiences.",
   },
   {
-    title: "Backend Developer Intern",
+    title: "Backend Developer ",
     type: ["Interns", "FullTime"],
     description:
       "Get hands-on experience with Node.js or Python-based backend systems and contribute to scalable APIs and services.",
@@ -44,25 +44,24 @@ const jobListings = [
 const Careers = () => {
   return (
     <>
-      <section className="bg-black text-white py-16 px-4 md:px-12">
+      <section className="bg-black text-white py-16 px-4 sm:px-6 lg:px-12">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-semibold mb-6">
-            About Ace AI
-          </h2>
-          <p className="text-lg md:text-xl text-gray-300 mb-12">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-6">About Ace AI</h2>
+
+          <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-12 max-w-3xl mx-auto">
             At Ace AI, we're building the future of AI-powered collaboration.
             Our mission is to bridge the gap between human creativity and
             artificial intelligence, creating tools that enhance productivity
             and innovation.
           </p>
 
-          <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
             {/* Card 1 */}
-            <div className="bg-gradient-to-b from-blue-800 to-blue-600 rounded-lg p-6 text-left shadow-lg">
+            <div className="bg-gradient-to-b from-blue-800 to-blue-600 rounded-xl p-6 text-left shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
               <h3 className="text-xl font-semibold mb-3 text-white">
                 Our Culture
               </h3>
-              <p className="text-gray-200">
+              <p className="text-gray-200 text-sm sm:text-base">
                 We foster a culture of curiosity, experimentation, and
                 continuous learning. Every team member is encouraged to
                 contribute ideas and take ownership of their work.
@@ -70,11 +69,11 @@ const Careers = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="bg-gradient-to-b from-blue-800 to-blue-600 rounded-lg p-6 text-left shadow-lg">
+            <div className="bg-gradient-to-b from-blue-800 to-blue-600 rounded-xl p-6 text-left shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
               <h3 className="text-xl font-semibold mb-3 text-white">
                 Our Values
               </h3>
-              <ul className="text-gray-200 list-disc pl-5 space-y-1">
+              <ul className="text-gray-200 text-sm sm:text-base list-disc pl-5 space-y-1">
                 <li>
                   <strong>Innovation:</strong> We push boundaries and challenge
                   the status quo
@@ -95,11 +94,11 @@ const Careers = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="bg-gradient-to-b from-blue-800 to-blue-600 rounded-lg p-6 text-left shadow-lg">
+            <div className="bg-gradient-to-b from-blue-800 to-blue-600 rounded-xl p-6 text-left shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
               <h3 className="text-xl font-semibold mb-3 text-white">
                 Sprint-Driven Approach
               </h3>
-              <p className="text-gray-200">
+              <p className="text-gray-200 text-sm sm:text-base">
                 We work in focused weekly sprints, allowing us to iterate
                 quickly, gather feedback, and continuously improve our products.
                 This agile approach keeps us nimble and responsive to changing
@@ -111,7 +110,7 @@ const Careers = () => {
       </section>
 
       <section>
-        <div className="bg-blue-50 text-black min-h-screen py-10 px-4 md:px-16">
+        <div className="bg-blue-50 text-black min-h-fit py-20 px-4 md:px-16 ">
           <h1 className="text-4xl font-bold mb-8 text-center">Open Roles</h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {jobListings.map((job, idx) => (

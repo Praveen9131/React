@@ -11,7 +11,7 @@ const Collaboration = () => {
         educational and industrial ecosystem to foster innovation, knowledge
         sharing, and real-world impact.
       </p>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
         <div class="group bg-blue-100 backdrop-blur-sm rounded-2xl p-10 shadow-lg hover:shadow-xl transition-all duration-300  hover:-translate-y-1">
           <div class="text-center mb-6">
             <div class="w-20 h-20 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-3xl flex items-center justify-center mx-auto mb-4 shadow-lg">

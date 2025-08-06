@@ -11,10 +11,10 @@ function ApplyBtn() {
       {/* ...Your existing content here... */}
 
       {/* Apply Button */}
-      <div className="flex justify-center ">
+      <div className="flex justify-center px-4 sm:px-6 md:px-8 lg:px-0">
         <button
           onClick={openModal}
-          className="px-32 py-2 bg-black text-white rounded-[100px] text-md font-medium hover:bg-black/80 transition"
+          className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl py-2 bg-black text-white rounded-full text-base sm:text-lg font-medium hover:bg-black/80 transition duration-200"
         >
           Apply Now
         </button>

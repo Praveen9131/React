@@ -13,7 +13,7 @@ const engagementModels = [
     icon: <FaCogs className="text-blue-500 text-5xl" />,
     title: "End-to-End AI Delivery",
     description:
-      "We take full ownership – from problem definition and architecture to development, deployment and ongoing optimization.",
+      "We take full ownership from problem definition and architecture to development, deployment and ongoing optimization.",
   },
   {
     icon: <FaLightbulb className="text-blue-500 text-5xl" />,
@@ -28,7 +28,7 @@ const gridStyles = [
     icon: <FaMagic className="text-blue-500 text-5xl" />,
     title: "Managed AI Services",
     description:
-      "Fully managed AI operations – from data pipelines to model retraining – delivered with performance SLAs.",
+      "Fully managed AI operations from data pipelines to model retraining delivered with performance SLAs.",
   },
   {
     icon: <FaTools className="text-blue-500 text-5xl" />,
@@ -50,7 +50,7 @@ const Engagement = () => {
       </p>
 
       {/* Grid Section 1 */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-8">
         {engagementModels.map((model, index) => (
           <div
             key={index}
