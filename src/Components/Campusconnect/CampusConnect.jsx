@@ -5,7 +5,7 @@ import Footer from "../home/Footer";
 import { div } from "framer-motion/client";
 import Collaboration from "./Collaboration";
 import WhyConnect from "./WhyConnect";
-import Form from "../Form";
+import ContactForm from "../../Components/ContactForm";
 import { Link } from "react-router-dom";
 
 function CampusConnect() {
@@ -14,7 +14,7 @@ function CampusConnect() {
       <section className="bg-gradient-to-t from-blue-100 to-blue-200 py-16 md:py-30">
         <div className="max-w-7xl mx-auto px-6 flex justify-center items-center">
           <div className="w-full md:w-full text-center md:text-left">
-            <h1 className="text-4xl md:text-6xl text-center font-bold text-black leading-tight">
+            <h1 className="text-3xl md:text-6xl text-center font-bold text-black leading-tight">
               Empowering Students Through
               <br />
               <span className="bg-gradient-to-b from-blue-900 to-blue-500 text-transparent md:text-7xl bg-clip-text font-extrabold mt-10">
@@ -265,7 +265,7 @@ function CampusConnect() {
             </div>
 
             {/* Generative AI Course */}
-            <div className="animate_top group relative h-fit rounded-lg  p-6 sm:p-7.5 shadow-xl">
+            <div className="animate_top group relative h-fit  p-6 sm:p-7.5 shadow-xl">
               <h3 className="mb-3 text-2xl sm:text-3xl font-bold text-black">
                 Generative AI
               </h3>
@@ -316,11 +316,11 @@ function CampusConnect() {
             </div>
 
             {/* Agentics AI Course */}
-            <div className="animate_top group relative h-fit rounded-lg p-6 sm:p-7.5 shadow-xl">
+            <div className="animate_top group relative h-fit  p-6 sm:p-7.5 shadow-xl">
               <h3 className="mb-4 text-2xl sm:text-4xl font-bold text-black">
                 Agentics AI
               </h3>
-              <h3 className="mb-2 text-xl sm:text-3xl font-bold text-black">
+              <h3 className="mb-2 text-xl sm:text-2xl font-bold text-black">
                 INR 7k
                 <span className="text-xs sm:text-sm text-gray-700 px-2 py-1  rounded-full">
                   One Time
@@ -330,7 +330,7 @@ function CampusConnect() {
                 Develop intelligent AI agents capable of autonomous
                 decision-making and task automation.
               </p>
-              <div className="mt-6 sm:mt-9 border-t border-stroke pb-10 sm:pb-12 pt-6 sm:pt-9">
+              <div className="mt-6 sm:mt-7 border-t border-stroke pb-10 sm:pb-12 pt-6 sm:pt-9">
                 <ul>
                   <li className="mb-3 sm:mb-4 text-black text-sm sm:text-base">
                     Live Classes
@@ -369,7 +369,7 @@ function CampusConnect() {
             {/* Frontend Development Course */}
             <div className="animate_top group relative h-fit  p-6 sm:p-7.5 shadow-xl">
               <h3 className="mb-3 text-2xl sm:text-3xl font-bold text-black">
-                Frontend Development
+                Frontend
               </h3>
               <h3 className="mb-2 text-xl sm:text-2xl font-bold text-black">
                 INR 5k
@@ -420,7 +420,7 @@ function CampusConnect() {
             {/* Backend Development Course */}
             <div className="animate_top group relative h-fit p-6 sm:p-7.5 shadow-xl">
               <h3 className="mb-3 text-2xl sm:text-3xl font-bold text-black">
-                Backend Development
+                Backend
               </h3>
               <h3 className="mb-2 text-xl sm:text-2xl font-bold text-black">
                 INR 6.5k
@@ -585,7 +585,7 @@ function CampusConnect() {
                 Learn cloud architecture, deployment, and management using AWS,
                 Azure, and Google Cloud with hands-on projects.
               </p>
-              <div className="mt-6 sm:mt-9 border-t border-stroke pb-10 sm:pb-12 pt-6 sm:pt-9 ">
+              <div className="mt-6 sm:mt-10 border-t border-stroke pb-10 sm:pb-12 pt-6 sm:pt-9 ">
                 <ul>
                   <li className="mb-3 sm:mb-4 text-black text-sm sm:text-base">
                     Live Classes
@@ -629,7 +629,7 @@ function CampusConnect() {
         <Collaboration />
       </section>
       <div>
-        <Form></Form>
+        <ContactForm />
       </div>
       <Footer></Footer>
     </>

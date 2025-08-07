@@ -91,8 +91,8 @@ function Navbar() {
           </button>
 
           {/* Nav Links */}
-          <div className="hidden lg:flex flex-1 justify-center">
-            <nav className="flex items-center">
+          <div className="hidden lg:flex flex-1 justify-end">
+            <nav className="flex items-center mr-8">
               <ul className="flex space-x-4">
                 {["/", "/campus-connect", "/careers"].map((path, index) => (
                   <li key={path}>

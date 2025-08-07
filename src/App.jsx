@@ -6,6 +6,8 @@ import CampusConnect from "./Components/Campusconnect/CampusConnect.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GetinTouch from "./Components/GetinTouch.jsx";
 import ScrollToTop from "./Components/ScrollToTop.jsx";
+import Privacy from "./Components/home/Privacy.jsx";
+import Terms from "./Components/home/Terms.jsx";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
               <Route path="/campus-connect" element={<CampusConnect />} />
               <Route path="/careers" element={<Careers />} />
               <Route path="/get-in-touch" element={<GetinTouch />} />
+              <Route path="/privacy" element={<Privacy />} />
+              <Route path="/terms" element={<Terms />} />
             </Routes>
           </main>
         </div>

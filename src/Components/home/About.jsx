@@ -71,9 +71,9 @@ function About() {
           <div className="flex items-center justify-center w-full mt-10">
             <Link
               to="/get-in-touch"
-              className="px-6 py-2 bg-blue-500 text-white rounded-xl text-lg font-medium hover:bg-blue-600 transition"
+              className="px-6 py-2 bg-blue-500 text-white rounded-xl text-sm sm:text-lg font-medium hover:bg-blue-600 transition"
             >
-              Let’s Talk About Our Business
+              Let’s Talk About your Business
             </Link>
           </div>
         </div>

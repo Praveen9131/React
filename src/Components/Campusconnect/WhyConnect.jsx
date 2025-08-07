@@ -63,7 +63,7 @@ const WhyConnect = () => {
         <div className="mt-12">
           <Link
             to="/get-in-touch"
-            className="bg-blue-600 text-white px-8 py-2 rounded-xl text-lg font-medium hover:bg-blue-700 transition"
+            className="bg-blue-600 text-white px-8 py-2 rounded-xl text-sm sm:text-lg font-medium hover:bg-blue-700 transition"
           >
             Let’s Build the Future Together
           </Link>

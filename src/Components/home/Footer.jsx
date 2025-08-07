@@ -1,5 +1,6 @@
 import React from "react";
 import footerlogo from "../../../public/homeImgs/footerlogo.jpg";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -33,20 +34,20 @@ function Footer() {
               <h3 className="font-semibold text-foreground">Support</h3>
               <ul role="list" className="space-y-4 justify-center grid">
                 <li>
-                  <a
+                  <Link
+                    to="/get-in-touch"
                     className="text-sm leading-6 text-gray-400  hover:text-white"
-                    href=""
                   >
                     Consulting
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
+                    to="/campus-connect"
                     className="text-sm leading-6  text-gray-400  hover:text-white"
-                    href=""
                   >
                     GenAI Course
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -56,7 +57,7 @@ function Footer() {
                 <li>
                   <a
                     className="text-sm leading-6  text-gray-400  hover:text-white"
-                    href="/resources"
+                    href="#"
                   >
                     Resources
                   </a>
@@ -64,7 +65,7 @@ function Footer() {
                 <li>
                   <a
                     className="text-sm leading-6  text-gray-400  hover:text-white"
-                    href="/events"
+                    href="#"
                   >
                     Events
                   </a>
@@ -75,28 +76,20 @@ function Footer() {
               <h3 className="font-semibold leading-6 text-foreground">Legal</h3>
               <ul role="list" className="space-y-4 justify-center grid">
                 <li>
-                  <a
+                  <Link
+                    to="/privacy"
                     className="text-sm leading-6  text-gray-400  hover:text-white"
-                    href=""
                   >
                     Privacy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
+                    to="/terms"
                     className="text-sm leading-6  text-gray-400  hover:text-white"
-                    href="/terms-and-conditions"
                   >
                     Terms
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="text-sm leading-6  text-gray-400  hover:text-white"
-                    href=""
-                  >
-                    Refund
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -107,7 +100,7 @@ function Footer() {
             <a
               className="fill-foreground text-foreground fill-white hover:fill-gray-500"
               target="_blank"
-              href=""
+              href="#"
             >
               <span className="sr-only">LinkedIn</span>
               <svg viewBox="0 0 512 512" className="h-6 w-6" aria-hidden="true">
@@ -117,7 +110,7 @@ function Footer() {
             <a
               className="fill-foreground text-foreground hover:fill-gray-500 hover:text-gray-500"
               target="_blank"
-              href=""
+              href="#"
             >
               <span className="sr-only">Instagram</span>
               <svg
@@ -132,7 +125,7 @@ function Footer() {
             <a
               className="fill-foreground text-foreground hover:fill-gray-500 hover:text-gray-500"
               target="_blank"
-              href=""
+              href="#"
             >
               <span className="sr-only">Twitter</span>
               <svg

@@ -78,7 +78,7 @@ const Choose = () => {
       <div className="flex items-center justify-center w-full col-span-1 sm:col-span-2 lg:col-span-3 py-10">
         <Link
           to="/get-in-touch"
-          className="px-6 py-2 bg-blue-500 text-white rounded-xl text-lg font-medium hover:bg-blue-600 transition"
+          className="px-6 py-2 bg-blue-500 text-white rounded-xl text-sm sm:text-lg font-medium hover:bg-blue-600 transition"
         >
           Explore the Ace Ai Advantages
         </Link>

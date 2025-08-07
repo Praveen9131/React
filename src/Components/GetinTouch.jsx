@@ -1,5 +1,6 @@
 import React from "react";
 import { useRef } from "react";
+import AiImpact from "./AiImpact";
 import Footer from "./home/Footer";
 
 const GetinTouch = () => {
@@ -54,16 +55,6 @@ const GetinTouch = () => {
               Have a data challenge, a brilliant idea, or just curious about
               what we can build together? We’re ready to listen and collaborate.
             </p>
-            {/* <div className="flex flex-wrap gap-4">
-            {[...Array(5)].map((_, i) => (
-              <div
-                key={i}
-                className="w-20 h-20 bg-gray-800 rounded-lg flex items-center justify-center text-xs"
-              >
-                Badge {i + 1}
-              </div>
-            ))}
-          </div> */}
           </div>
 
           {/* Right Form Section */}
@@ -104,7 +95,7 @@ const GetinTouch = () => {
         </div>
       </section>
 
-      <section className="bg-white  py-12 px-4 sm:px-6 lg:px-8">
+      <section className="bg-white  py-12 px-4 sm:px-6 lg:px-8 my-10">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-10">
             What Happens After You Submit the Form
@@ -140,15 +131,10 @@ const GetinTouch = () => {
               </div>
             ))}
           </div>
-          <div className="mt-10">
-            <button
-              onClick={scrollToForm}
-              className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition"
-            >
-              Let’s Talk about Your Business
-            </button>
-          </div>
         </div>
+      </section>
+      <section className="mt-12">
+        <AiImpact />
       </section>
       <section>
         <Footer />
