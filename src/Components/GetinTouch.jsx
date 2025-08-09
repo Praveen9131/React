@@ -4,12 +4,6 @@ import AiImpact from "./AiImpact";
 import Footer from "./home/Footer";
 
 const GetinTouch = () => {
-  const formSectionRef = useRef(null);
-
-  const scrollToForm = () => {
-    formSectionRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-
   const steps = [
     {
       id: 1,
@@ -38,10 +32,7 @@ const GetinTouch = () => {
   ];
   return (
     <>
-      <section
-        ref={formSectionRef}
-        className="w-full bg-black text-white px-6 py-16 md:px-12 lg:px-20 xl:px-32"
-      >
+      <section className="w-full bg-black text-white px-6 py-16 md:px-12 lg:px-20 xl:px-32">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           {/* Left Text Section */}
           <div className="space-y-6">
