@@ -47,8 +47,8 @@ const CareerGrowth = () => {
             Elevate Your Career With Us
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We don't just offer jobs - we build careers. Our comprehensive
-            growth ecosystem is designed to propel you forward.
+            We don't just offer jobs we build careers. Our comprehensive growth
+            ecosystem is designed to propel you forward.
           </p>
         </div>
 

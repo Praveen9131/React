@@ -26,7 +26,7 @@ function HeroSection() {
             </h1>
             <p className="text-base sm:text-lg text-gray-200 mb-8">
               As an AI solution provider, Ace AI delivers advanced AI solutions
-              tailored to your business needs — enabling automation, smarter
+              tailored to your business needs enabling automation, smarter
               analytics, and scalable transformation across operations.
             </p>
           </div>
