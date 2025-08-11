@@ -15,7 +15,7 @@ const ContactUs = () => {
           </p>
 
           <p className="text-gray-800 mb-2">support@aceai.in</p>
-          <p className="text-gray-800 mb-6"></p>
+          <p className="text-gray-800 font-semibold mb-6">9962264760</p>
 
           <div className="grid sm:grid-cols-1 gap-8 text-sm text-gray-700 mt-10">
             <div>
@@ -34,7 +34,7 @@ const ContactUs = () => {
                   href="mailto:media@aceai.in"
                   className="underline text-blue-600"
                 >
-                  media@aceai.in
+                  director@aceai.in{" "}
                 </a>
               </p>
             </div>

@@ -24,9 +24,10 @@ function Footer() {
                 style={{ color: "transparent" }}
               />
             </a>
-            <div className="space-y-2 pb-4 text-lg">
+            <div className="pb-4 text-lg">
               <a href="mailto:director@aceai.in">director@aceai.in</a>
-              <p className="">Chennai, Tamilnadu, 603103 </p>
+              <p>9962264760</p>
+              <p>Chennai, Tamilnadu, 603103 </p>
             </div>
           </div>
           <div className="mt-10 grid grid-cols-3 gap-8 lg:col-span-2 lg:mt-0">
@@ -100,7 +101,7 @@ function Footer() {
             <a
               className="fill-foreground text-foreground fill-white hover:fill-gray-500"
               target="_blank"
-              href="#"
+              href="https://www.linkedin.com/company/aceai-softwares/"
             >
               <span className="sr-only">LinkedIn</span>
               <svg viewBox="0 0 512 512" className="h-6 w-6" aria-hidden="true">
@@ -110,7 +111,7 @@ function Footer() {
             <a
               className="fill-foreground text-foreground hover:fill-gray-500 hover:text-gray-500"
               target="_blank"
-              href="#"
+              href="https://www.instagram.com/aceai_1?utm_source=qr&igsh=bGVkdWJ4ajRlcGxx"
             >
               <span className="sr-only">Instagram</span>
               <svg

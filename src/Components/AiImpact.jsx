@@ -48,11 +48,11 @@ const AiImpact = () => {
           <h2 className="text-3xl lg:text-5xl font-bold leading-tight lg:mb-20">
             Empowering Innovation: How AI Enhances Every Layer of Our Stack{" "}
           </h2>
-          <div className="lg:flex justify-center">
-            <img src={AiImg} alt="AI-imge" className="h-96 w-96 mb-30 " />
+          <div className="flex justify-center">
+            <img src={AiImg} alt="AI-imge" className="h-96 w-96 lg:mb-30 " />
           </div>
         </div>
-        <div className="mt-16 grid md:grid-cols-2 gap-6">
+        <div className="lg:mt-16 grid md:grid-cols-2 gap-6">
           {data.map((item, idx) => (
             <div
               key={idx}

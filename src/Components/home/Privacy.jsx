@@ -82,10 +82,10 @@ const Privacy = () => {
             If you have any questions or concerns about this policy, please
             contact us at{" "}
             <a
-              href="mailto:support@aceai.in"
+              href="mailto:director@aceai.in"
               className="text-blue-600 underline"
             >
-              support@aceai.in
+              director@aceai.in{" "}
             </a>
             .
           </p>

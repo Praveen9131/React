@@ -88,10 +88,10 @@ const Terms = () => {
           <p>
             For any questions about these Terms, contact us at{" "}
             <a
-              href="mailto:support@aceai.in"
+              href="mailto: director@aceai.in"
               className="text-blue-600 underline"
             >
-              support@aceai.in
+              director@aceai.in
             </a>
             .
           </p>

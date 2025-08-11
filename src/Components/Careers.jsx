@@ -1,6 +1,13 @@
 import React from "react";
 import ApplyBtn from "./ApplyBtn.jsx";
 import Footer from "./home/Footer.jsx";
+import CareerGrowth from "./CareerGrowth.jsx";
+import {
+  FaUserGraduate,
+  FaChalkboardTeacher,
+  FaAward,
+  FaProjectDiagram,
+} from "react-icons/fa";
 
 const jobListings = [
   {
@@ -38,6 +45,36 @@ const jobListings = [
     type: ["Interns", "FullTime"],
     description:
       "Streamline CI/CD pipelines, automate infrastructure, and ensure smooth deployment and monitoring workflows.",
+  },
+];
+
+const growthItems = [
+  {
+    icon: <FaProjectDiagram className="text-5xl text-indigo-500" />,
+    title: "Career Paths",
+    description:
+      "Explore multiple career tracks tailored to your skills and interests.",
+    color: "from-indigo-500 to-purple-600",
+  },
+  {
+    icon: <FaChalkboardTeacher className="text-5xl text-green-500" />,
+    title: "Training Programs",
+    description: "Get access to hands-on training and industry workshops.",
+    color: "from-green-500 to-teal-600",
+  },
+  {
+    icon: <FaAward className="text-5xl  text-yellow-500" />,
+    title: "Certifications",
+    description:
+      "Earn globally recognized certifications to boost your career.",
+    color: "from-yellow-500 to-amber-600",
+  },
+  {
+    icon: <FaUserGraduate className="text-5xl  text-pink-500" />,
+    title: "Mentorship",
+    description:
+      "Work with experienced mentors for personal and professional growth.",
+    color: "from-pink-500 to-rose-600",
   },
 ];
 
@@ -139,6 +176,9 @@ const Careers = () => {
             ))}
           </div>
         </div>
+      </section>
+      <section>
+        <CareerGrowth />
       </section>
       <div>
         <Footer></Footer>
