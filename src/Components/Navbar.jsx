@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logoImg from "../assets/ace-ailogo (2).png";
+import logoImg from "../assets/logowhite.png";
 import Signin from "./Signin.jsx";
 import Signup from "./SignUp.jsx";
 import { useEffect } from "react";
@@ -42,16 +42,7 @@ function Navbar() {
         <div className="max-w-[88rem] mx-auto px-4 py-4 flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center space-x-2 z-40">
-            <img src={logoImg} alt="Logo" className="h-10 w-10" />
-            <div>
-              <span className="font-bold text-lg bg-gradient-to-b from-[#4AB699] to-[#09305B] text-transparent bg-clip-text">
-                Ace AI
-              </span>
-              <br />
-              <p className="text-sm font-bold bg-gradient-to-b from-[#4AB699] to-[#09305B] text-transparent bg-clip-text">
-                Technology
-              </p>
-            </div>
+            <img src={logoImg} alt="Logo" className="h-14 w-14 ml-6" />
           </a>
 
           {/* Mobile Menu Button */}
