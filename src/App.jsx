@@ -8,6 +8,7 @@ import GetinTouch from "./Components/GetinTouch.jsx";
 import ScrollToTop from "./Components/ScrollToTop.jsx";
 import Privacy from "./Components/home/Privacy.jsx";
 import Terms from "./Components/home/Terms.jsx";
+import Popup from "./Components/Popup.jsx";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               <Route path="/terms" element={<Terms />} />
             </Routes>
           </main>
+          <Popup></Popup>
         </div>
       </BrowserRouter>
     </>
