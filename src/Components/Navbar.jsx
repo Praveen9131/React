@@ -42,7 +42,11 @@ function Navbar() {
         <div className="max-w-[88rem] mx-auto px-4 py-4 flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center space-x-2 z-40">
-            <img src={logoImg} alt="Logo" className="h-14 w-14 ml-6" />
+            <img
+              src={logoImg}
+              alt="Logo"
+              className="h-12 w-12 sm:h-14 sm:w-14 sm:ml-6"
+            />
           </a>
 
           {/* Mobile Menu Button */}
