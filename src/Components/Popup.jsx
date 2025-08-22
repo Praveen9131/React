@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Ideathon from "../../public/homeImgs/ideathon.png";
-import { Link } from "react-router-dom";
 
 const Popup = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -60,13 +59,12 @@ const Popup = () => {
         />
 
         {/* ✅ Register Button */}
-        <Link
-          to="/careers"
-          onClick={() => setIsOpen(false)} // close popup before navigating
+        <a
+          href="https://forms.gle/qWZeFYEZ2FkBmm8D6"
           className="block text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition"
         >
           Register Now
-        </Link>
+        </a>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImg from "../../../public/homeImgs/heroImg.png";
+import Events from "../Events.jsx";
 import About from "./About.jsx";
 import Choose from "./Choose.jsx";
 import Approach from "./Approach.jsx";
@@ -48,6 +49,9 @@ function HeroSection() {
             Book a Free Consultation
           </Link>
         </div>
+      </section>
+      <section>
+        <Events></Events>
       </section>
       <section>
         <About />

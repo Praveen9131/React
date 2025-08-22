@@ -69,6 +69,23 @@ export default function Events() {
         ["--primary-soft"]: primary.soft,
       }}
     >
+      <div className="relative left-4 bottom-6 sm:left-50">
+        <div className="max-w-full text-left">
+          {/* 🔥 Upcoming badge with animation */}
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.8,
+              repeat: Infinity,
+              repeatType: "reverse",
+            }}
+            className="inline-block px-4 py-1 text-sm rounded-full bg-gradient-to-r from-pink-500 to-yellow-500 text-white font-semibold sm:text-lg shadow-md"
+          >
+            🌟 Upcoming
+          </motion.div>
+        </div>
+      </div>
       {/* Decorative background */}
       <svg
         aria-hidden
