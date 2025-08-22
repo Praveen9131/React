@@ -2,6 +2,7 @@ import React from "react";
 import ApplyBtn from "./ApplyBtn.jsx";
 import Footer from "./home/Footer.jsx";
 import CareerGrowth from "./CareerGrowth.jsx";
+import Events from "./Events.jsx";
 import {
   FaUserGraduate,
   FaChalkboardTeacher,
@@ -81,6 +82,9 @@ const growthItems = [
 const Careers = () => {
   return (
     <>
+      <section>
+        <Events></Events>
+      </section>
       <section className="bg-black text-white py-16 px-4 sm:px-6 lg:px-12">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">About Ace AI</h2>

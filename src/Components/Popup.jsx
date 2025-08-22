@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Ideathon from "../../public/homeImgs/ideathon.png";
+import { Link } from "react-router-dom";
 
 const Popup = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,6 +28,7 @@ const Popup = () => {
     setIsOpen(false);
   };
 
+  // 👉 Hide popup if not open
   if (!isOpen) return null;
 
   return (
@@ -57,33 +59,14 @@ const Popup = () => {
           className="w-full h-fit object-cover rounded-lg mb-4"
         />
 
-        {/* Registration Form */}
-        <form onSubmit={handleSubmit} className="space-y-3">
-          <input
-            type="text"
-            name="name"
-            placeholder="Full Name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Email Address"
-            value={formData.email}
-            onChange={handleChange}
-            required
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-          <button
-            type="submit"
-            className="w-full bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition"
-          >
-            Register Now
-          </button>
-        </form>
+        {/* ✅ Register Button */}
+        <Link
+          to="/careers"
+          onClick={() => setIsOpen(false)} // close popup before navigating
+          className="block text-center bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition"
+        >
+          Register Now
+        </Link>
       </div>
     </div>
   );
